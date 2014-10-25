@@ -7,11 +7,17 @@ import java.io.InputStream;
 import java.io.FileInputStream;
 
 public class countLinesFromFile {
-    public static int numLines;
+    public int numLines;
+    public String fileName;
 
-    public static void main() throws IOException {
+    public void ResourceFile(String res){
+        this.fileName = res;
+    }
 
-       String fName = "insert_filename_here.txt";
+
+    public void main() throws IOException {
+
+       String fName = fileName;
        numLines = line_counter(fName);
 
     }
