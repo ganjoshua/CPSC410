@@ -9,5 +9,14 @@ public class Files {
     int contributors[];
     int numChanges;
     int numLines;
+	
+	//Store names of files it is linked to
+	//Considerations: perhaps used a file index number instead? 
+	//TO-DO: link this to ClassParser
+	String dependencies[];
+	
+	//TO-DO: link this to BugsFinder Parser
+	//value given to bugs finder analysis
+	int bugRank;
 
 }

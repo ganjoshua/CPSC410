@@ -4,6 +4,7 @@
 public class Users{
 
     String name;
+	int userNum;
     String[] fileArray;
     int fileCount;
 
