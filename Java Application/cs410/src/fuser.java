@@ -27,6 +27,13 @@ public class fuser{
 
         }*/
     }
+    
+    //TO-DO: implement XML file creation for prefuse visualizer input
+    public void xmlCreate(){
+        //create xml file here based on class cycle dependencies
+        //xml file should contain info on probability of bugs / severity of bugs
+        //color code should be inserted here?
+    }
 
     public int checkIfExist(String filename) {
 
