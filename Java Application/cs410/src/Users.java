@@ -4,7 +4,8 @@
 public class Users{
 
     String name;
-    String[] fileArray;
+	int userNum;
+    String[] fileArray = new String[20];
     int fileCount;
 
 }
