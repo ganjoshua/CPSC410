@@ -1,0 +1,8 @@
+ca.ubc.jpacman.model.UndoableGame: ca.ubc.jpacman.model.UndoIGameInteractor ca.ubc.jpacman.model.CurrentState 
+ca.ubc.jpacman.ui.UndoButtonPanel: ca.ubc.jpacman.ui.UndoPacmanInteraction 
+ca.ubc.jpacman.ui.UndoablePacman: ca.ubc.jpacman.ui.UndoPacmanInteraction ca.ubc.jpacman.model.UndoableGame 
+ca.ubc.jpacman.model.UndoIGameInteractor: 
+ca.ubc.jpacman.ui.UndoPacmanInteraction: ca.ubc.jpacman.ui.UndoIPacmanInteraction 
+ca.ubc.jpacman.ui.UndoIPacmanInteraction: 
+ca.ubc.jpacman.model.CurrentState: ca.ubc.jpacman.model.UndoableGame 
+ca.ubc.jpacman.factory.UndoGameFactory: ca.ubc.jpacman.model.UndoableGame 
