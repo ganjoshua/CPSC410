@@ -9,6 +9,8 @@ import java.io.FileInputStream;
 public class countLinesFromFile {
     public int numLines;
     public String fileName;
+	public Files files[] = new Files[1000];
+	public int fileCount = 0;
 
     public void ResourceFile(String res){
         this.fileName = res;
@@ -19,7 +21,10 @@ public class countLinesFromFile {
 
        String fName = fileName;
        numLines = line_counter(fName);
-
+	   files[fileCount].name = fileName;
+	   files[fileCount].numLines = numLines;
+	   fileCount++;
+	   
     }
 
     public static int line_counter(String filename) throws IOException {

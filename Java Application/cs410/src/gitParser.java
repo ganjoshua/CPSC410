@@ -55,6 +55,7 @@ public class gitParser {
 
                             user[0] = new Users();
                             user[0].name = currentUser;
+							user[0].userNum = 0;
                             currentUserCount = 0;
                             userCount++;
 
@@ -73,6 +74,7 @@ public class gitParser {
                             if (!userAlreadyExist){
                                 user[userCount] = new Users();
                                 user[userCount].name = currentUser;
+								user[userCount].userNum = userCount;
                                 currentUserCount = userCount;
                                 userCount++;
                             }else{
@@ -85,7 +87,11 @@ public class gitParser {
                         if (myLine.contains("fix")){
                             //this change was a fix to a bug/error
                             //TO-DO: implement something to record this
-                        }
+                        }else{
+							
+							//TO-DO: record change in Files struct for all files involved
+							
+						}
                         //read file change
                         /*myLine = bufRead.readLine();
                         user[currentUserCount].fileArray[user[currentUserCount].fileCount]=myLine;
