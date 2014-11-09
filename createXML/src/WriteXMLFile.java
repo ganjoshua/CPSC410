@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -60,7 +61,7 @@ public class WriteXMLFile {
 		//<key id="gender" for="node" attr.name="pbugs" attr.type="string"/>
 		key = doc.createElement("key");
 		graph.appendChild(key);
-		key.setAttribute("id","gender");
+		key.setAttribute("id","pbugs");
 		key.setAttribute("for","node");
 		key.setAttribute("attr.name","pbugs");
 		key.setAttribute("attr.type","string");
@@ -76,8 +77,11 @@ public class WriteXMLFile {
 			data.appendChild(doc.createTextNode(csvFile.get(i)[0]));
 			data = doc.createElement("data");
 			node.appendChild(data);
-			data.setAttribute("key", "pBugs");
-			data.appendChild(doc.createTextNode(i+""));
+			data.setAttribute("key", "pbugs");
+			String[] comments = new String[] { "1", "2", "3","4","5" };
+		    int nextInt = new Random().nextInt(5);
+			data.appendChild(doc.createTextNode(comments[nextInt]));
+			
 		}
 		
 		//write edges <-- which file is linked to the source
