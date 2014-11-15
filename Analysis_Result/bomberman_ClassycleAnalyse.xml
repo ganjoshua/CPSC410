@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='reportXMLtoHTML.xsl'?>
+<classycle title='Classycle Plugin' date='2014-11-15'>
+  <cycles>
+    <cycle name="BomberMain et al." size="12" longestWalk="3" girth="2" radius="2" diameter="4" bestFragmentSize="6">
+      <classes>
+        <classRef name="BomberMap" eccentricity="3" maximumFragmentSize="9"/>
+        <classRef name="BomberMain" eccentricity="2" maximumFragmentSize="6"/>
+        <classRef name="BomberMenu" eccentricity="3" maximumFragmentSize="10"/>
+        <classRef name="BomberImageButton" eccentricity="4" maximumFragmentSize="11"/>
+        <classRef name="Main" eccentricity="3" maximumFragmentSize="10"/>
+        <classRef name="BomberGame" eccentricity="3" maximumFragmentSize="11"/>
+        <classRef name="BomberPlayer" eccentricity="3" maximumFragmentSize="11"/>
+        <classRef name="BomberSndEffect" eccentricity="3" maximumFragmentSize="11"/>
+        <classRef name="BomberBonus" eccentricity="3" maximumFragmentSize="11"/>
+        <classRef name="BomberBGM" eccentricity="3" maximumFragmentSize="11"/>
+        <classRef name="BomberBomb" eccentricity="3" maximumFragmentSize="11"/>
+        <classRef name="BomberFire" eccentricity="4" maximumFragmentSize="11"/>
+      </classes>
+      <centerClasses>
+        <classRef name="BomberMain"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="BomberMain"/>
+      </bestFragmenters>
+    </cycle>
+  </cycles>
+  <classes numberOfExternalClasses="85">
+    <class name="BomberMap" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="12544" usedBy="6" usesInternal="9" usesExternal="19" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberBomb" type="usedBy"/>
+      <classRef name="BomberBonus" type="usedBy"/>
+      <classRef name="BomberFire" type="usedBy"/>
+      <classRef name="BomberGame" type="usedBy"/>
+      <classRef name="BomberMain" type="usedBy"/>
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="javax.swing.JPanel" type="usesExternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="java.awt.Color" type="usesExternal"/>
+      <classRef name="BomberBomb" type="usesInternal"/>
+      <classRef name="BomberBonus" type="usesInternal"/>
+      <classRef name="java.util.Vector" type="usesExternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="BomberRandInt" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="java.awt.RenderingHints" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.awt.Toolkit" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="ErrorDialog" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.awt.MediaTracker" type="usesExternal"/>
+      <classRef name="java.awt.Component" type="usesExternal"/>
+      <classRef name="java.awt.Dimension" type="usesExternal"/>
+      <classRef name="javax.swing.JLayeredPane" type="usesExternal"/>
+      <classRef name="BomberFire" type="usesInternal"/>
+      <classRef name="BomberGame" type="usesInternal"/>
+      <classRef name="BomberPlayer" type="usesInternal"/>
+      <classRef name="java.awt.Graphics" type="usesExternal"/>
+      <classRef name="java.awt.image.ImageObserver" type="usesExternal"/>
+      <classRef name="java.awt.Graphics2D" type="usesExternal"/>
+    </class>
+    <class name="BomberBonus" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="3103" usedBy="3" usesInternal="6" usesExternal="10" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberFire" type="usedBy"/>
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="java.lang.Thread" type="usesExternal"/>
+      <classRef name="BomberMap" type="usesInternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="java.awt.RenderingHints" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="BomberSndEffect" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="BomberGame" type="usesInternal"/>
+      <classRef name="BomberPlayer" type="usesInternal"/>
+      <classRef name="java.awt.Graphics" type="usesExternal"/>
+      <classRef name="java.awt.image.ImageObserver" type="usesExternal"/>
+      <classRef name="java.awt.Graphics2D" type="usesExternal"/>
+    </class>
+    <class name="BomberRandInt" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="914" usedBy="1" usesInternal="0" usesExternal="2" layer="0" cycle="">
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Math" type="usesExternal"/>
+    </class>
+    <class name="SoundPlayer" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="11839" usedBy="2" usesInternal="0" usesExternal="41" layer="0" cycle="">
+      <classRef name="BomberBGM" type="usedBy"/>
+      <classRef name="BomberSndEffect" type="usedBy"/>
+      <classRef name="javax.swing.JPanel" type="usesExternal"/>
+      <classRef name="java.lang.Runnable" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.LineListener" type="usesExternal"/>
+      <classRef name="javax.sound.midi.MetaEventListener" type="usesExternal"/>
+      <classRef name="java.awt.event.ActionListener" type="usesExternal"/>
+      <classRef name="java.util.Vector" type="usesExternal"/>
+      <classRef name="java.lang.Thread" type="usesExternal"/>
+      <classRef name="javax.sound.midi.Sequencer" type="usesExternal"/>
+      <classRef name="javax.sound.midi.Synthesizer" type="usesExternal"/>
+      <classRef name="javax.sound.midi.MidiChannel" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="javax.swing.JButton" type="usesExternal"/>
+      <classRef name="java.lang.Class" type="usesExternal"/>
+      <classRef name="java.awt.GridLayout" type="usesExternal"/>
+      <classRef name="java.awt.LayoutManager" type="usesExternal"/>
+      <classRef name="java.awt.Component" type="usesExternal"/>
+      <classRef name="javax.sound.midi.MidiSystem" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.net.URL" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.AudioSystem" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.AudioInputStream" type="usesExternal"/>
+      <classRef name="javax.sound.midi.Sequence" type="usesExternal"/>
+      <classRef name="java.io.FileInputStream" type="usesExternal"/>
+      <classRef name="java.io.BufferedInputStream" type="usesExternal"/>
+      <classRef name="java.io.InputStream" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.AudioFormat" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.DataLine" type="usesExternal"/>
+      <classRef name="java.lang.NoClassDefFoundError" type="usesExternal"/>
+      <classRef name="java.lang.Throwable" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.Line" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.Clip" type="usesExternal"/>
+      <classRef name="javax.sound.midi.InvalidMidiDataException" type="usesExternal"/>
+      <classRef name="java.lang.ClassNotFoundException" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.LineEvent" type="usesExternal"/>
+      <classRef name="javax.sound.midi.MetaMessage" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.FloatControl" type="usesExternal"/>
+      <classRef name="javax.sound.sampled.Control" type="usesExternal"/>
+      <classRef name="java.lang.Math" type="usesExternal"/>
+      <classRef name="java.awt.event.ActionEvent" type="usesExternal"/>
+    </class>
+    <class name="ErrorDialog" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="2177" usedBy="8" usesInternal="0" usesExternal="13" layer="0" cycle="">
+      <classRef name="BomberBGM" type="usedBy"/>
+      <classRef name="BomberGame" type="usedBy"/>
+      <classRef name="BomberKeyConfig" type="usedBy"/>
+      <classRef name="BomberMain" type="usedBy"/>
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="BomberMenu" type="usedBy"/>
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="Main" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.io.CharArrayWriter" type="usesExternal"/>
+      <classRef name="java.io.PrintWriter" type="usesExternal"/>
+      <classRef name="java.io.Writer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="javax.swing.JTextArea" type="usesExternal"/>
+      <classRef name="javax.swing.JScrollPane" type="usesExternal"/>
+      <classRef name="java.awt.Component" type="usesExternal"/>
+      <classRef name="javax.swing.JOptionPane" type="usesExternal"/>
+      <classRef name="javax.swing.JDialog" type="usesExternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+    </class>
+    <class name="BomberMain" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="5130" usedBy="9" usesInternal="7" usesExternal="22" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberBGM" type="usedBy"/>
+      <classRef name="BomberBomb" type="usedBy"/>
+      <classRef name="BomberBonus" type="usedBy"/>
+      <classRef name="BomberGame" type="usedBy"/>
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="BomberMenu" type="usedBy"/>
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="BomberSndEffect" type="usedBy"/>
+      <classRef name="Main" type="usedBy"/>
+      <classRef name="javax.swing.JFrame" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="BomberMenu" type="usesInternal"/>
+      <classRef name="BomberGame" type="usesInternal"/>
+      <classRef name="BomberSndEffect" type="usesInternal"/>
+      <classRef name="java.awt.event.WindowListener" type="usesExternal"/>
+      <classRef name="java.awt.event.KeyListener" type="usesExternal"/>
+      <classRef name="java.awt.Toolkit" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="ErrorDialog" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.awt.Container" type="usesExternal"/>
+      <classRef name="java.awt.Component" type="usesExternal"/>
+      <classRef name="java.awt.Dimension" type="usesExternal"/>
+      <classRef name="javax.swing.JDialog" type="usesExternal"/>
+      <classRef name="java.awt.Frame" type="usesExternal"/>
+      <classRef name="java.awt.Point" type="usesExternal"/>
+      <classRef name="javax.swing.JLayeredPane" type="usesExternal"/>
+      <classRef name="BomberMap" type="usesInternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="BomberBGM" type="usesInternal"/>
+      <classRef name="java.awt.event.WindowAdapter" type="usesExternal"/>
+      <classRef name="java.awt.event.WindowEvent" type="usesExternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="java.awt.event.KeyAdapter" type="usesExternal"/>
+      <classRef name="java.awt.event.KeyEvent" type="usesExternal"/>
+    </class>
+    <class name="BomberSndEffect" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="1064" usedBy="4" usesInternal="3" usesExternal="6" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberBomb" type="usedBy"/>
+      <classRef name="BomberBonus" type="usedBy"/>
+      <classRef name="BomberMain" type="usedBy"/>
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="java.lang.Thread" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="SoundPlayer" type="usesInternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+    </class>
+    <class name="BomberBomb" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="3165" usedBy="1" usesInternal="6" usesExternal="10" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="java.lang.Thread" type="usesExternal"/>
+      <classRef name="BomberMap" type="usesInternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="java.awt.RenderingHints" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="BomberGame" type="usesInternal"/>
+      <classRef name="BomberPlayer" type="usesInternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="BomberSndEffect" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.awt.Graphics" type="usesExternal"/>
+      <classRef name="java.awt.image.ImageObserver" type="usesExternal"/>
+      <classRef name="java.awt.Graphics2D" type="usesExternal"/>
+    </class>
+    <class name="BomberMenu" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="5780" usedBy="1" usesInternal="5" usesExternal="21" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberMain" type="usedBy"/>
+      <classRef name="javax.swing.JPanel" type="usesExternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="BomberImageButton" type="usesInternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="java.awt.RenderingHints" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.awt.Toolkit" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="ErrorDialog" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.awt.Dimension" type="usesExternal"/>
+      <classRef name="java.awt.MediaTracker" type="usesExternal"/>
+      <classRef name="java.awt.Component" type="usesExternal"/>
+      <classRef name="java.awt.image.ImageObserver" type="usesExternal"/>
+      <classRef name="java.awt.event.KeyEvent" type="usesExternal"/>
+      <classRef name="BomberConfigDialog" type="usesInternal"/>
+      <classRef name="javax.swing.JFrame" type="usesExternal"/>
+      <classRef name="javax.swing.JOptionPane" type="usesExternal"/>
+      <classRef name="javax.swing.JDialog" type="usesExternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="java.awt.Graphics" type="usesExternal"/>
+      <classRef name="java.awt.Graphics2D" type="usesExternal"/>
+    </class>
+    <class name="BomberBGM" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="1780" usedBy="2" usesInternal="4" usesExternal="6" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberGame" type="usedBy"/>
+      <classRef name="BomberMain" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="SoundPlayer" type="usesInternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="ErrorDialog" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.util.Vector" type="usesExternal"/>
+    </class>
+    <class name="BomberConfigDialog" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="9351" usedBy="1" usesInternal="1" usesExternal="26" layer="2" cycle="">
+      <classRef name="BomberMenu" type="usedBy"/>
+      <classRef name="javax.swing.JDialog" type="usesExternal"/>
+      <classRef name="java.awt.event.ActionListener" type="usesExternal"/>
+      <classRef name="javax.swing.JButton" type="usesExternal"/>
+      <classRef name="javax.swing.JTextField" type="usesExternal"/>
+      <classRef name="javax.swing.JFrame" type="usesExternal"/>
+      <classRef name="java.awt.Frame" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="BomberKeyConfig" type="usesInternal"/>
+      <classRef name="javax.swing.JPanel" type="usesExternal"/>
+      <classRef name="java.awt.GridLayout" type="usesExternal"/>
+      <classRef name="java.awt.LayoutManager" type="usesExternal"/>
+      <classRef name="java.awt.FlowLayout" type="usesExternal"/>
+      <classRef name="javax.swing.BorderFactory" type="usesExternal"/>
+      <classRef name="javax.swing.border.Border" type="usesExternal"/>
+      <classRef name="javax.swing.JLabel" type="usesExternal"/>
+      <classRef name="java.awt.Component" type="usesExternal"/>
+      <classRef name="java.awt.Container" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.awt.Point" type="usesExternal"/>
+      <classRef name="java.awt.Dimension" type="usesExternal"/>
+      <classRef name="java.awt.event.KeyEvent" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="javax.swing.border.TitledBorder" type="usesExternal"/>
+      <classRef name="java.awt.event.ActionEvent" type="usesExternal"/>
+      <classRef name="java.awt.event.KeyAdapter" type="usesExternal"/>
+      <classRef name="javax.swing.JOptionPane" type="usesExternal"/>
+      <classRef name="java.awt.event.KeyListener" type="usesExternal"/>
+    </class>
+    <class name="BomberImageButton" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="2741" usedBy="1" usesInternal="1" usesExternal="9" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberMenu" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="javax.swing.JPanel" type="usesExternal"/>
+      <classRef name="java.awt.Rectangle" type="usesExternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="java.awt.RenderingHints" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.awt.image.ImageObserver" type="usesExternal"/>
+      <classRef name="java.awt.Graphics" type="usesExternal"/>
+      <classRef name="java.awt.Graphics2D" type="usesExternal"/>
+    </class>
+    <class name="BomberKeyQueue" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="2338" usedBy="1" usesInternal="0" usesExternal="1" layer="0" cycle="">
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+    </class>
+    <class name="BomberFire" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="3131" usedBy="1" usesInternal="5" usesExternal="9" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="java.lang.Thread" type="usesExternal"/>
+      <classRef name="BomberMap" type="usesInternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="java.awt.RenderingHints" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="BomberBonus" type="usesInternal"/>
+      <classRef name="BomberGame" type="usesInternal"/>
+      <classRef name="BomberPlayer" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.awt.Graphics" type="usesExternal"/>
+      <classRef name="java.awt.image.ImageObserver" type="usesExternal"/>
+      <classRef name="java.awt.Graphics2D" type="usesExternal"/>
+    </class>
+    <class name="BomberKeyConfig" sources="C:/githubREPO/CPSC410/bomberman/bin" type="abstract class" innerClass="false" size="1933" usedBy="2" usesInternal="1" usesExternal="9" layer="1" cycle="">
+      <classRef name="BomberConfigDialog" type="usedBy"/>
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.io.ObjectInputStream" type="usesExternal"/>
+      <classRef name="java.io.FileInputStream" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.io.InputStream" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.io.ObjectOutputStream" type="usesExternal"/>
+      <classRef name="java.io.FileOutputStream" type="usesExternal"/>
+      <classRef name="java.io.OutputStream" type="usesExternal"/>
+      <classRef name="ErrorDialog" type="usesInternal"/>
+    </class>
+    <class name="Main" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="2187" usedBy="11" usesInternal="2" usesExternal="6" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberBGM" type="usedBy"/>
+      <classRef name="BomberBomb" type="usedBy"/>
+      <classRef name="BomberBonus" type="usedBy"/>
+      <classRef name="BomberFire" type="usedBy"/>
+      <classRef name="BomberGame" type="usedBy"/>
+      <classRef name="BomberImageButton" type="usedBy"/>
+      <classRef name="BomberMain" type="usedBy"/>
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="BomberMenu" type="usedBy"/>
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="BomberSndEffect" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.System" type="usesExternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="javax.swing.UIManager" type="usesExternal"/>
+      <classRef name="ErrorDialog" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+    </class>
+    <class name="BomberGame" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="6109" usedBy="6" usesInternal="6" usesExternal="20" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberBomb" type="usedBy"/>
+      <classRef name="BomberBonus" type="usedBy"/>
+      <classRef name="BomberFire" type="usedBy"/>
+      <classRef name="BomberMain" type="usedBy"/>
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="BomberPlayer" type="usedBy"/>
+      <classRef name="javax.swing.JPanel" type="usesExternal"/>
+      <classRef name="java.awt.event.ActionListener" type="usesExternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="BomberMap" type="usesInternal"/>
+      <classRef name="javax.swing.Timer" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="BomberPlayer" type="usesInternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="java.awt.RenderingHints" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.awt.Toolkit" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="ErrorDialog" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.awt.MediaTracker" type="usesExternal"/>
+      <classRef name="java.awt.Component" type="usesExternal"/>
+      <classRef name="javax.swing.JLayeredPane" type="usesExternal"/>
+      <classRef name="java.awt.event.KeyEvent" type="usesExternal"/>
+      <classRef name="java.awt.Graphics" type="usesExternal"/>
+      <classRef name="java.awt.image.ImageObserver" type="usesExternal"/>
+      <classRef name="java.awt.Graphics2D" type="usesExternal"/>
+      <classRef name="java.awt.event.ActionEvent" type="usesExternal"/>
+      <classRef name="BomberBGM" type="usesInternal"/>
+    </class>
+    <class name="BomberPlayer" sources="C:/githubREPO/CPSC410/bomberman/bin" type="class" innerClass="false" size="11126" usedBy="5" usesInternal="9" usesExternal="16" layer="3" cycle="BomberMain et al.">
+      <classRef name="BomberBomb" type="usedBy"/>
+      <classRef name="BomberBonus" type="usedBy"/>
+      <classRef name="BomberFire" type="usedBy"/>
+      <classRef name="BomberGame" type="usedBy"/>
+      <classRef name="BomberMap" type="usedBy"/>
+      <classRef name="java.lang.Thread" type="usesExternal"/>
+      <classRef name="BomberGame" type="usesInternal"/>
+      <classRef name="BomberMap" type="usesInternal"/>
+      <classRef name="BomberKeyQueue" type="usesInternal"/>
+      <classRef name="java.awt.Image" type="usesExternal"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Main" type="usesInternal"/>
+      <classRef name="java.awt.RenderingHints" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.awt.Toolkit" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.StringBuffer" type="usesExternal"/>
+      <classRef name="BomberMain" type="usesInternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="ErrorDialog" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.awt.MediaTracker" type="usesExternal"/>
+      <classRef name="java.awt.Component" type="usesExternal"/>
+      <classRef name="BomberKeyConfig" type="usesInternal"/>
+      <classRef name="java.awt.event.KeyEvent" type="usesExternal"/>
+      <classRef name="BomberSndEffect" type="usesInternal"/>
+      <classRef name="BomberBonus" type="usesInternal"/>
+      <classRef name="java.awt.Graphics" type="usesExternal"/>
+      <classRef name="java.awt.image.ImageObserver" type="usesExternal"/>
+      <classRef name="java.awt.Graphics2D" type="usesExternal"/>
+    </class>
+  </classes>
+  <packageCycles>
+  </packageCycles>
+  <packages>
+    <package name="(default package)" sources="C:/githubREPO/CPSC410/bomberman/bin"  size="18" usedBy="1" usesInternal="1" usesExternal="11" layer="0" cycle="">
+      <packageRef name="(default package)" type="usedBy"/>
+      <packageRef name="javax.swing" type="usesExternal"/>
+      <packageRef name="(default package)" type="usesInternal"/>
+      <packageRef name="java.awt" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+      <packageRef name="java.awt.image" type="usesExternal"/>
+      <packageRef name="javax.sound.sampled" type="usesExternal"/>
+      <packageRef name="javax.sound.midi" type="usesExternal"/>
+      <packageRef name="java.awt.event" type="usesExternal"/>
+      <packageRef name="java.net" type="usesExternal"/>
+      <packageRef name="javax.swing.border" type="usesExternal"/>
+    </package>
+  </packages>
+</classycle>
