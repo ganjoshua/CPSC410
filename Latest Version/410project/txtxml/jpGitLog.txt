@@ -1,0 +1,585 @@
+
+g20-jg 
+Fixed code smells - long methods
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoButtonPanel.java
+
+g20-jg 
+enabled undo to work only when player moves
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+
+g20-jg 
+Fixed 7_4
+JPacman-undo/src/test/java/ca/ubc/jpacman/accept/UndoStoryTest.java
+
+g17-mr 
+Removed redundant ghost on food test.
+JPacman-undo/src/test/java/ca/ubc/jpacman/accept/UndoStoryTest.java
+
+Syed Mehdi Raza 
+All test cases pass except one of 7.3
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/CurrentState.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+JPacman-undo/src/test/java/ca/ubc/jpacman/accept/UndoStoryTest.java
+
+g20-jg 
+Fixed the test cases
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoPacmanInteraction.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoablePacman.java
+JPacman-undo/src/test/java/ca/ubc/jpacman/accept/UndoStoryTest.java
+
+g20-jg 
+Fixed undoablegametest.java
+JPacman-undo/src/test/java/ca/ubc/jpacman/model/UndoableGameTest.java
+
+Syed Mehdi Raza 
+Food Undo Completed
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/CurrentState.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+
+g17-mr 
+Added undo for ghost.
+Max/JPacman-undo/.DS_Store
+Max/JPacman-undo/.gitignore
+Max/JPacman-undo/README.md
+Max/JPacman-undo/checkstyle.xml
+Max/JPacman-undo/codeformat/code-formatter.xml
+Max/JPacman-undo/docs/.DS_Store
+Max/JPacman-undo/docs/ModelClassDiagram.pdf
+Max/JPacman-undo/docs/UIClassDiagram.pdf
+Max/JPacman-undo/docs/move-decision.xlsx
+Max/JPacman-undo/docs/scenarios.txt
+Max/JPacman-undo/docs/undo-class-diagram.pdf
+Max/JPacman-undo/docs/undo-scenarios.txt
+Max/JPacman-undo/pom.xml
+Max/JPacman-undo/src-assembly.xml
+Max/JPacman-undo/src/main/java/ca/ubc/jpacman/factory/UndoGameFactory.java
+Max/JPacman-undo/src/main/java/ca/ubc/jpacman/model/CurrentState.java
+Max/JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoIGameInteractor.java
+Max/JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+Max/JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoButtonPanel.java
+Max/JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoIPacmanInteraction.java
+Max/JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoPacmanInteraction.java
+Max/JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoablePacman.java
+Max/JPacman-undo/src/test/java/ca/ubc/jpacman/accept/MovePlayerStoryTest.java
+Max/JPacman-undo/src/test/java/ca/ubc/jpacman/accept/UndoStoryTest.java
+Max/JPacman-undo/src/test/java/ca/ubc/jpacman/model/UndoableGameTest.java
+Max/UndoTestStroy.java
+
+g15-jl 
+Revive player, player movements go back, points reduce all work and updated
+Joanna/CurrentState.java
+Joanna/UndoableGame.java
+
+g20-jg 
+Made changes to comments and println functions
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoButtonPanel.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoablePacman.java
+
+g20-jg 
+Completed the undobutton feature
+JPacman-undo/src/main/java/ca/ubc/jpacman/factory/UndoGameFactory.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoIGameInteractor.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoButtonPanel.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoIPacmanInteraction.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoPacmanInteraction.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoablePacman.java
+
+Syed Mehdi Raza 
+fixed packages
+JPacman-undo/src/main/java/ca/ubc/jpacman/factory/UndoGameFactory.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/model/UndoableGame.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoButtonPanel.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoPacmanInteraction.java
+JPacman-undo/src/main/java/ca/ubc/jpacman/ui/UndoablePacman.java
+JPacman-undo/src/main/java/org/jpacman/undo/factory/UndoGameFactory.java
+JPacman-undo/src/main/java/org/jpacman/undo/model/UndoableGame.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoButtonPanel.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoPacmanInteraction.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoablePacman.java
+JPacman-undo/src/test/java/ca/ubc/jpacman/accept/MovePlayerStoryTest.java
+JPacman-undo/src/test/java/ca/ubc/jpacman/accept/UndoStoryTest.java
+JPacman-undo/src/test/java/ca/ubc/jpacman/model/UndoableGameTest.java
+JPacman-undo/src/test/java/org/jpacman/test/undo/accept/MovePlayerStoryTest.java
+JPacman-undo/src/test/java/org/jpacman/test/undo/accept/UndoStoryTest.java
+JPacman-undo/src/test/java/org/jpacman/test/undo/model/UndoableGameTest.java
+
+g15-jl 
+Merge branch 'master' of https://github.com/UBC-EECE310/team3
+
+g15-jl 
+added a stack for ghost moves
+Joanna/UndoableGame.java
+
+g20-jg 
+fix UBP.java, mod UP.java, added UPI.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoButtonPanel.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoPacmanInteraction.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoablePacman.java
+
+g15-jl 
+getting the current state of player
+Joanna/CurrentState.java
+Joanna/UndoableGame.java
+
+g15-jl 
+getting state of the game instance
+Joanna/UndoableGame.java
+
+g20-jg 
+Modified UndoButtonPanel and undoablePacman
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoButtonPanel.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoablePacman.java
+
+Syed Mehdi Raza 
+Instantiate undo button
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoButton.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoButtonPanel.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoablePacman.java
+
+Syed Mehdi Raza 
+Main function for UndoablePacman
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoablePacman.java
+
+Syed Mehdi Raza 
+Integration with jpacman-undo
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoButton.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoablePacman.java
+JPacman-undo/src/test/java/org/jpacman/test/undo/accept/UndoStoryTest.java
+
+g20-jg 
+Done undoButton.java implementation
+Joshua/UndoButton.java
+
+g15-jl 
+Updated undostorytest so no more errors
+JPacman-undo/src/test/java/org/jpacman/test/undo/accept/UndoStoryTest.java
+
+g20-jg 
+modified UndoablePacman.java to comply with 2.3
+Joshua/UndoablePacman.java
+
+g20-jg 
+pushed incomplete undoablepacman.java to my folder
+Joshua/UndoablePacman.java
+
+g15-jl 
+Updated story tests to include Max's
+JPacman-undo/src/test/java/org/jpacman/test/undo/accept/UndoStoryTest.java
+
+Syed Mehdi Raza 
+Organized jpacman-undo + combined test cases
+JPacman-undo/src/main/java/org/jpacman/undo/factory/UndoGameFactory.java
+JPacman-undo/src/main/java/org/jpacman/undo/model/UndoableGame.java
+JPacman-undo/src/main/java/org/jpacman/undo/ui/UndoablePacman.java
+JPacman-undo/src/test/java/MovePlayerStoryTest.java
+JPacman-undo/src/test/java/UndoStoryTest.java
+JPacman-undo/src/test/java/UndoableGameTest.java
+JPacman-undo/src/test/java/org/jpacman/test/undo/accept/MovePlayerStoryTest.java
+JPacman-undo/src/test/java/org/jpacman/test/undo/accept/UndoStoryTest.java
+JPacman-undo/src/test/java/org/jpacman/test/undo/model/UndoableGameTest.java
+Mehdi/MovePlayerStoryTest.java
+Mehdi/UndoGameFactory.java
+Mehdi/UndoStoryTest.java
+Mehdi/UndoableGame.java
+Mehdi/UndoableGameTest.java
+Mehdi/UndoablePacman.java
+Mehdi/src/main/java/org/jpacman/undo/factory/UndoGameFactory.java
+Mehdi/src/main/java/org/jpacman/undo/model/UndoableGame.java
+Mehdi/src/main/java/org/jpacman/undo/ui/UndoablePacman.java
+Mehdi/src/test/java/org/jpacman/test/undo/accept/MovePlayerStoryTest.java
+Mehdi/src/test/java/org/jpacman/test/undo/accept/UndoStoryTest.java
+Mehdi/src/test/java/org/jpacman/test/undo/model/UndoableGameTest.java
+
+Syed Mehdi Raza 
+Files from 2.3
+JPacman-undo/src/test/java/UndoableGameTest.java
+Mehdi/UndoGameFactory.java
+Mehdi/UndoableGame.java
+Mehdi/UndoableGameTest.java
+
+g17-mr 
+Changed function names
+Max/UndoTestStroy.java
+
+g20-jg 
+Merge branch 'master' of https://github.com/UBC-EECE310/team3
+
+g20-jg 
+Files for 2.3
+Joshua/UndoGameFactory.java
+Joshua/UndoableGame.java
+Joshua/UndoableGameTest.java
+
+g17-mr 
+Added tests for issue 7.3
+Max/UndoTestStroy.java
+
+Syed Mehdi Raza 
+Clean up
+JPacman-undo/src/test/java/UndoStoryTest.java
+Mehdi/MovePlayerStoryTest.java
+Mehdi/UndoStoryTest.java
+Mehdi/UndoablePacman.java
+Mehdi/src/test/java/MovePlayerStoryTest.java
+Mehdi/src/test/java/UndoStoryTest.java
+
+Syed Mehdi Raza 
+Merge branch 'master' of https://github.com/UBC-EECE310/team3
+
+Syed Mehdi Raza 
+Added test for user story 7.1
+Mehdi/src/test/java/UndoStoryTest.java
+
+g15-jl 
+added 7.6 story
+Joanna/UndoStoryTest.java
+
+Syed Mehdi Raza 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g15-jl 
+This is 2, 2.1, 2.2 completed work of lab
+Joanna/MovePlayerStoryTest.java
+Joanna/UndoStoryTest.java
+Joanna/UndoablePacman.java
+
+Syed Mehdi Raza 
+MovePlayerStory and UndoStoryTest
+Mehdi/src/test/java/MovePlayerStoryTest.java
+Mehdi/src/test/java/UndoStoryTest.java
+
+Syed Mehdi Raza 
+undoStory
+JPacman-undo/src/test/java/UndoStoryTest.java
+
+g20-jg 
+added test cases for undoablePacman 7.2 and 7.5
+Joshua/UndoStoryTest.java
+
+g20-jg 
+Merge branch 'master' of https://github.com/UBC-EECE310/team3
+
+g15-jl 
+added folders for members
+Joanna/Joanna.txt
+Joshua/Joshua.txt
+Max/Max.txt
+Mehdi/Mehdi.txt
+
+g20-jg 
+added MovePlayerStoryTest.java
+JPacman-undo/src/test/java/MovePlayerStoryTest.java
+
+Syed Mehdi Raza 
+UML Undo Class Diagram
+JPacman-undo/docs/undo-class-diagram.pdf
+
+g15-jl 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g15-jl 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g20-jg 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g15-jl 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+Syed Mehdi Raza 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+Syed Mehdi Raza 
+Added 7.5
+JPacman-undo/docs/undo-scenarios.txt
+
+Syed Mehdi Raza 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+Syed Mehdi Raza 
+Added another story
+JPacman-undo/docs/undo-scenarios.txt
+README.md
+
+g20-jg 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g20-jg 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g20-jg 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g15-jl 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g20-jg 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+Syed Mehdi Raza 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g15-jl 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+Syed Mehdi Raza 
+Update undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+
+g20-jg 
+Rename undo-scenerios.txt to undo-scenarios.txt
+JPacman-undo/docs/undo-scenarios.txt
+JPacman-undo/docs/undo-scenerios.txt
+
+g15-jl 
+listing story labels
+JPacman-undo/docs/undo-scenerios.txt
+JPacman-undo/docs/undo-scnerios.txt
+
+g20-jg 
+Update scenarios.txt
+JPacman-undo/docs/scenarios.txt
+
+Syed Mehdi Raza 
+undo-scnerios
+JPacman-undo/docs/undo-scnerios.txt
+
+Syed Mehdi Raza 
+Cleanup
+.DS_Store
+.gitignore
+Assignment2/Joanna/Joanna.txt
+Assignment2/Joshua/Joshua.txt
+Assignment2/Max/Max.txt
+Assignment2/Mehdi/Mehdi.txt
+JPacman-undo/README.md
+JPacman-undo/pom.xml
+README.md
+checkstyle.xml
+codeformat/code-formatter.xml
+docs/.DS_Store
+docs/ModelClassDiagram.pdf
+docs/UIClassDiagram.pdf
+docs/move-decision.xlsx
+docs/scenarios.txt
+g15-jl-Assignment1-changes/JPacman-undo/.DS_Store
+g15-jl-Assignment1-changes/JPacman-undo/.gitignore
+g15-jl-Assignment1-changes/JPacman-undo/README.md
+g15-jl-Assignment1-changes/JPacman-undo/checkstyle.xml
+g15-jl-Assignment1-changes/JPacman-undo/codeformat/code-formatter.xml
+g15-jl-Assignment1-changes/JPacman-undo/docs/.DS_Store
+g15-jl-Assignment1-changes/JPacman-undo/docs/ModelClassDiagram.pdf
+g15-jl-Assignment1-changes/JPacman-undo/docs/UIClassDiagram.pdf
+g15-jl-Assignment1-changes/JPacman-undo/docs/move-decision.xlsx
+g15-jl-Assignment1-changes/JPacman-undo/docs/scenarios.txt
+g15-jl-Assignment1-changes/JPacman-undo/pom.xml
+g15-jl-Assignment1-changes/JPacman-undo/src-assembly.xml
+g17-mr_Assignment1_version1/JPacman-undo/.DS_Store
+g17-mr_Assignment1_version1/JPacman-undo/.gitignore
+g17-mr_Assignment1_version1/JPacman-undo/README.md
+g17-mr_Assignment1_version1/JPacman-undo/checkstyle.xml
+g17-mr_Assignment1_version1/JPacman-undo/codeformat/code-formatter.xml
+g17-mr_Assignment1_version1/JPacman-undo/docs/.DS_Store
+g17-mr_Assignment1_version1/JPacman-undo/docs/ModelClassDiagram.pdf
+g17-mr_Assignment1_version1/JPacman-undo/docs/UIClassDiagram.pdf
+g17-mr_Assignment1_version1/JPacman-undo/docs/move-decision.xlsx
+g17-mr_Assignment1_version1/JPacman-undo/docs/scenarios.txt
+g17-mr_Assignment1_version1/JPacman-undo/pom.xml
+g17-mr_Assignment1_version1/JPacman-undo/src-assembly.xml
+pom.xml
+src-assembly.xml
+
+g15-jl 
+Merge branch 'master' of https://github.com/UBC-EECE310/team3
+
+g15-jl 
+Folders for Assignment2
+Assignment2/Joanna/Joanna.txt
+Assignment2/Joshua/Joshua.txt
+Assignment2/Max/Max.txt
+Assignment2/Mehdi/Mehdi.txt
+
+g20-jg 
+Update scenarios.txt
+JPacman-undo/docs/scenarios.txt
+
+g17-mr 
+First commit of version g17-mr
+g17-mr_Assignment1_version1/JPacman-undo/.DS_Store
+g17-mr_Assignment1_version1/JPacman-undo/.gitignore
+g17-mr_Assignment1_version1/JPacman-undo/README.md
+g17-mr_Assignment1_version1/JPacman-undo/checkstyle.xml
+g17-mr_Assignment1_version1/JPacman-undo/codeformat/code-formatter.xml
+g17-mr_Assignment1_version1/JPacman-undo/docs/.DS_Store
+g17-mr_Assignment1_version1/JPacman-undo/docs/ModelClassDiagram.pdf
+g17-mr_Assignment1_version1/JPacman-undo/docs/UIClassDiagram.pdf
+g17-mr_Assignment1_version1/JPacman-undo/docs/move-decision.xlsx
+g17-mr_Assignment1_version1/JPacman-undo/docs/scenarios.txt
+g17-mr_Assignment1_version1/JPacman-undo/pom.xml
+g17-mr_Assignment1_version1/JPacman-undo/src-assembly.xml
+
+g20-jg 
+made changes to README
+JPacman-undo/README.md
+
+g20-jg 
+Setting up the stage completed - g20-jg
+JPacman-undo/.DS_Store
+JPacman-undo/.gitignore
+JPacman-undo/README.md
+JPacman-undo/checkstyle.xml
+JPacman-undo/codeformat/code-formatter.xml
+JPacman-undo/docs/.DS_Store
+JPacman-undo/docs/ModelClassDiagram.pdf
+JPacman-undo/docs/UIClassDiagram.pdf
+JPacman-undo/docs/move-decision.xlsx
+JPacman-undo/docs/scenarios.txt
+JPacman-undo/pom.xml
+JPacman-undo/src-assembly.xml
+
+g15-jl 
+removed JPacman-undo
+JPacman-undo/.DS_Store
+JPacman-undo/.gitignore
+JPacman-undo/README.md
+JPacman-undo/checkstyle.xml
+JPacman-undo/codeformat/code-formatter.xml
+JPacman-undo/docs/.DS_Store
+JPacman-undo/docs/ModelClassDiagram.pdf
+JPacman-undo/docs/UIClassDiagram.pdf
+JPacman-undo/docs/move-decision.xlsx
+JPacman-undo/docs/scenarios.txt
+JPacman-undo/pom.xml
+JPacman-undo/src-assembly.xml
+
+g15-jl 
+removed macosx folder
+__MACOSX/._JPacman-undo
+__MACOSX/JPacman-undo/._.DS_Store
+__MACOSX/JPacman-undo/._README.md
+__MACOSX/JPacman-undo/._checkstyle.xml
+__MACOSX/JPacman-undo/._docs
+__MACOSX/JPacman-undo/._pom.xml
+__MACOSX/JPacman-undo/._src
+__MACOSX/JPacman-undo/._src-assembly.xml
+__MACOSX/JPacman-undo/codeformat/._code-formatter.xml
+__MACOSX/JPacman-undo/docs/._.DS_Store
+__MACOSX/JPacman-undo/docs/._ModelClassDiagram.pdf
+__MACOSX/JPacman-undo/docs/._UIClassDiagram.pdf
+__MACOSX/JPacman-undo/docs/._move-decision.xlsx
+__MACOSX/JPacman-undo/docs/._scenarios.txt
+__MACOSX/JPacman-undo/src/._main
+__MACOSX/JPacman-undo/src/._test
+__MACOSX/JPacman-undo/src/main/._java
+__MACOSX/JPacman-undo/src/main/java/._org
+__MACOSX/JPacman-undo/src/main/java/org/._jpacman
+__MACOSX/JPacman-undo/src/main/java/org/jpacman/._undo
+__MACOSX/JPacman-undo/src/test/._java
+__MACOSX/JPacman-undo/src/test/._resources
+__MACOSX/JPacman-undo/src/test/java/._org
+__MACOSX/JPacman-undo/src/test/java/org/._jpacman
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/._test
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/._framework
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/._undo
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/framework/._accept
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/framework/._factory
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/framework/._model
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/framework/._ui
+
+g15-jl 
+g15-jl assignment1 changes
+g15-jl-Assignment1-changes/JPacman-undo/.DS_Store
+g15-jl-Assignment1-changes/JPacman-undo/.gitignore
+g15-jl-Assignment1-changes/JPacman-undo/README.md
+g15-jl-Assignment1-changes/JPacman-undo/checkstyle.xml
+g15-jl-Assignment1-changes/JPacman-undo/codeformat/code-formatter.xml
+g15-jl-Assignment1-changes/JPacman-undo/docs/.DS_Store
+g15-jl-Assignment1-changes/JPacman-undo/docs/ModelClassDiagram.pdf
+g15-jl-Assignment1-changes/JPacman-undo/docs/UIClassDiagram.pdf
+g15-jl-Assignment1-changes/JPacman-undo/docs/move-decision.xlsx
+g15-jl-Assignment1-changes/JPacman-undo/docs/scenarios.txt
+g15-jl-Assignment1-changes/JPacman-undo/pom.xml
+g15-jl-Assignment1-changes/JPacman-undo/src-assembly.xml
+
+g15-jl 
+g15-jl assignment1 changes
+JPacman-undo/.DS_Store
+JPacman-undo/.gitignore
+JPacman-undo/README.md
+JPacman-undo/checkstyle.xml
+JPacman-undo/codeformat/code-formatter.xml
+JPacman-undo/docs/.DS_Store
+JPacman-undo/docs/ModelClassDiagram.pdf
+JPacman-undo/docs/UIClassDiagram.pdf
+JPacman-undo/docs/move-decision.xlsx
+JPacman-undo/docs/scenarios.txt
+JPacman-undo/pom.xml
+JPacman-undo/src-assembly.xml
+__MACOSX/._JPacman-undo
+__MACOSX/JPacman-undo/._.DS_Store
+__MACOSX/JPacman-undo/._README.md
+__MACOSX/JPacman-undo/._checkstyle.xml
+__MACOSX/JPacman-undo/._docs
+__MACOSX/JPacman-undo/._pom.xml
+__MACOSX/JPacman-undo/._src
+__MACOSX/JPacman-undo/._src-assembly.xml
+__MACOSX/JPacman-undo/codeformat/._code-formatter.xml
+__MACOSX/JPacman-undo/docs/._.DS_Store
+__MACOSX/JPacman-undo/docs/._ModelClassDiagram.pdf
+__MACOSX/JPacman-undo/docs/._UIClassDiagram.pdf
+__MACOSX/JPacman-undo/docs/._move-decision.xlsx
+__MACOSX/JPacman-undo/docs/._scenarios.txt
+__MACOSX/JPacman-undo/src/._main
+__MACOSX/JPacman-undo/src/._test
+__MACOSX/JPacman-undo/src/main/._java
+__MACOSX/JPacman-undo/src/main/java/._org
+__MACOSX/JPacman-undo/src/main/java/org/._jpacman
+__MACOSX/JPacman-undo/src/main/java/org/jpacman/._undo
+__MACOSX/JPacman-undo/src/test/._java
+__MACOSX/JPacman-undo/src/test/._resources
+__MACOSX/JPacman-undo/src/test/java/._org
+__MACOSX/JPacman-undo/src/test/java/org/._jpacman
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/._test
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/._framework
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/._undo
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/framework/._accept
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/framework/._factory
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/framework/._model
+__MACOSX/JPacman-undo/src/test/java/org/jpacman/test/framework/._ui
+
+Syed Mehdi Raza 
+Assignment 1 - Setting the stage
+.DS_Store
+.gitignore
+README.md
+checkstyle.xml
+codeformat/code-formatter.xml
+docs/.DS_Store
+docs/ModelClassDiagram.pdf
+docs/UIClassDiagram.pdf
+docs/move-decision.xlsx
+docs/scenarios.txt
+pom.xml
+src-assembly.xml
+
+sabaa 
+Initial commit
+README.md

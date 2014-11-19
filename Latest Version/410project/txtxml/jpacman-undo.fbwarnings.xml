@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="1" timestamp="1414275479345" analysisTimestamp="1414275477557" release="">
+  <Project projectName="jpacman-undo">
+    <Jar>C:\githubREPO\CPSC410\jpacman-undo\target\classes</Jar>
+    <Jar>C:\githubREPO\CPSC410\jpacman-undo\target\test-classes</Jar>
+    <AuxClasspathEntry>C:\githubREPO\CPSC410\jpacman-undo\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\githubREPO\CPSC410\jpacman-undo\target\test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ChunKiet\.m2\repository\junit\junit\4.10\junit-4.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ChunKiet\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ChunKiet\.m2\repository\org\mockito\mockito-all\1.9.0\mockito-all-1.9.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ChunKiet\.m2\repository\org\hamcrest\hamcrest-all\1.1\hamcrest-all-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_20\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\githubREPO\CPSC410\jpacman-undo\src\main\java</SrcDir>
+    <SrcDir>C:\githubREPO\CPSC410\jpacman-undo\src\test\resources</SrcDir>
+    <SrcDir>C:\githubREPO\CPSC410\jpacman-undo\src\test\java</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="ca.ubc.jpacman.accept.UndoStoryTest">
+      <SourceLine classname="ca.ubc.jpacman.accept.UndoStoryTest" sourcefile="UndoStoryTest.java" sourcepath="ca/ubc/jpacman/accept/UndoStoryTest.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.accept.UndoStoryTest" name="undoUI" signature="Lca/ubc/jpacman/ui/UndoablePacman;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.accept.UndoStoryTest" sourcefile="UndoStoryTest.java" sourcepath="ca/ubc/jpacman/accept/UndoStoryTest.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="ca.ubc.jpacman.factory.UndoGameFactory">
+      <SourceLine classname="ca.ubc.jpacman.factory.UndoGameFactory" sourcefile="UndoGameFactory.java" sourcepath="ca/ubc/jpacman/factory/UndoGameFactory.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.factory.UndoGameFactory" name="theGame" signature="Lca/ubc/jpacman/model/UndoableGame;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.factory.UndoGameFactory" sourcefile="UndoGameFactory.java" sourcepath="ca/ubc/jpacman/factory/UndoGameFactory.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="collectedP" signature="I" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="dirPlayer" signature="LDirection;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="earnP" signature="I" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="food" signature="Z" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="ghost" signature="LGhost;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="ghostDir" signature="LDirection;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="ghostTile" signature="LTile;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="minusP" signature="I" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="pWorth" signature="I" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="playerTile" signature="LTile;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.CurrentState">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.CurrentState" name="turn" signature="I" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.CurrentState" sourcefile="CurrentState.java" sourcepath="ca/ubc/jpacman/model/CurrentState.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="ca.ubc.jpacman.model.UndoableGame">
+      <SourceLine classname="ca.ubc.jpacman.model.UndoableGame" sourcefile="UndoableGame.java" sourcepath="ca/ubc/jpacman/model/UndoableGame.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.model.UndoableGame" name="stack" signature="Ljava/util/Stack;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.model.UndoableGame" sourcefile="UndoableGame.java" sourcepath="ca/ubc/jpacman/model/UndoableGame.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="ca.ubc.jpacman.ui.UndoButtonPanel">
+      <SourceLine classname="ca.ubc.jpacman.ui.UndoButtonPanel" sourcefile="UndoButtonPanel.java" sourcepath="ca/ubc/jpacman/ui/UndoButtonPanel.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.ui.UndoButtonPanel" name="undoButton" signature="Ljavax/swing/JButton;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.ui.UndoButtonPanel" sourcefile="UndoButtonPanel.java" sourcepath="ca/ubc/jpacman/ui/UndoButtonPanel.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="ca.ubc.jpacman.ui.UndoablePacman">
+      <SourceLine classname="ca.ubc.jpacman.ui.UndoablePacman" sourcefile="UndoablePacman.java" sourcepath="ca/ubc/jpacman/ui/UndoablePacman.java"/>
+    </Class>
+    <Field classname="ca.ubc.jpacman.ui.UndoablePacman" name="pi" signature="LPacmanInteraction;" isStatic="false">
+      <SourceLine classname="ca.ubc.jpacman.ui.UndoablePacman" sourcefile="UndoablePacman.java" sourcepath="ca/ubc/jpacman/ui/UndoablePacman.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 25 Oct 2014 12:59:54 -0700" total_classes="11" referenced_classes="21" total_bugs="16" total_size="134" num_packages="4" java_version="1.8.0_20" vm_version="25.20-b23" cpu_seconds="5.14" clock_seconds="1.79" peak_mbytes="380.30" alloc_mbytes="455.50" gc_seconds="0.03" priority_2="16">
+    <PackageStats package="ca.ubc.jpacman.accept" total_bugs="1" total_types="2" total_size="37" priority_2="1">
+      <ClassStats class="ca.ubc.jpacman.accept.MovePlayerStoryTest" sourceFile="MovePlayerStoryTest.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="ca.ubc.jpacman.accept.UndoStoryTest" sourceFile="UndoStoryTest.java" interface="false" size="24" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="ca.ubc.jpacman.factory" total_bugs="1" total_types="1" total_size="8" priority_2="1">
+      <ClassStats class="ca.ubc.jpacman.factory.UndoGameFactory" sourceFile="UndoGameFactory.java" interface="false" size="8" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="ca.ubc.jpacman.model" total_bugs="12" total_types="4" total_size="44" priority_2="12">
+      <ClassStats class="ca.ubc.jpacman.model.CurrentState" sourceFile="CurrentState.java" interface="false" size="17" bugs="11" priority_2="11"/>
+      <ClassStats class="ca.ubc.jpacman.model.UndoIGameInteractor" sourceFile="UndoIGameInteractor.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="ca.ubc.jpacman.model.UndoableGame" sourceFile="UndoableGame.java" interface="false" size="16" bugs="1" priority_2="1"/>
+      <ClassStats class="ca.ubc.jpacman.model.UndoableGameTest" sourceFile="UndoableGameTest.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="ca.ubc.jpacman.ui" total_bugs="2" total_types="4" total_size="45" priority_2="2">
+      <ClassStats class="ca.ubc.jpacman.ui.UndoButtonPanel" sourceFile="UndoButtonPanel.java" interface="false" size="19" bugs="1" priority_2="1"/>
+      <ClassStats class="ca.ubc.jpacman.ui.UndoIPacmanInteraction" sourceFile="UndoIPacmanInteraction.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="ca.ubc.jpacman.ui.UndoPacmanInteraction" sourceFile="UndoPacmanInteraction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="ca.ubc.jpacman.ui.UndoablePacman" sourceFile="UndoablePacman.java" interface="false" size="17" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="458" invocations="331" avgMicrosecondsPerInvocation="1385" maxMicrosecondsPerInvocation="27157" standardDeviationMircosecondsPerInvocation="3374"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="390" invocations="2" avgMicrosecondsPerInvocation="195190" maxMicrosecondsPerInvocation="316010" standardDeviationMircosecondsPerInvocation="120819"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="162" invocations="333" avgMicrosecondsPerInvocation="489" maxMicrosecondsPerInvocation="20009" standardDeviationMircosecondsPerInvocation="1126"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="85" invocations="21" avgMicrosecondsPerInvocation="4078" maxMicrosecondsPerInvocation="39294" standardDeviationMircosecondsPerInvocation="8929"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="53" invocations="109" avgMicrosecondsPerInvocation="488" maxMicrosecondsPerInvocation="2937" standardDeviationMircosecondsPerInvocation="642"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="46" invocations="284" avgMicrosecondsPerInvocation="162" maxMicrosecondsPerInvocation="2867" standardDeviationMircosecondsPerInvocation="301"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="39" invocations="52" avgMicrosecondsPerInvocation="751" maxMicrosecondsPerInvocation="25817" standardDeviationMircosecondsPerInvocation="3512"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="27" invocations="52" avgMicrosecondsPerInvocation="531" maxMicrosecondsPerInvocation="6668" standardDeviationMircosecondsPerInvocation="874"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="27" invocations="52" avgMicrosecondsPerInvocation="528" maxMicrosecondsPerInvocation="2251" standardDeviationMircosecondsPerInvocation="369"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="25" invocations="21" avgMicrosecondsPerInvocation="1204" maxMicrosecondsPerInvocation="9524" standardDeviationMircosecondsPerInvocation="2326"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="24" invocations="52" avgMicrosecondsPerInvocation="475" maxMicrosecondsPerInvocation="3818" standardDeviationMircosecondsPerInvocation="569"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1414275479344" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

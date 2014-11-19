@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <graph edgedefault="undirected">
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="pbugs" attr.type="string" for="node" id="gender"/>
+    <node id="ca.ubc.jpacman.model.UndoableGame">
+      <data key="name">ca.ubc.jpacman.model.UndoableGame</data>
+      <data key="pBugs">5</data>
+    </node>
+    <node id="ca.ubc.jpacman.ui.UndoButtonPanel">
+      <data key="name">ca.ubc.jpacman.ui.UndoButtonPanel</data>
+      <data key="pBugs">5</data>
+    </node>
+    <node id="ca.ubc.jpacman.ui.UndoablePacman">
+      <data key="name">ca.ubc.jpacman.ui.UndoablePacman</data>
+      <data key="pBugs">4</data>
+    </node>
+    <node id="ca.ubc.jpacman.model.UndoIGameInteractor">
+      <data key="name">ca.ubc.jpacman.model.UndoIGameInteractor</data>
+      <data key="pBugs">1</data>
+    </node>
+    <node id="ca.ubc.jpacman.ui.UndoPacmanInteraction">
+      <data key="name">ca.ubc.jpacman.ui.UndoPacmanInteraction</data>
+      <data key="pBugs">2</data>
+    </node>
+    <node id="ca.ubc.jpacman.ui.UndoIPacmanInteraction">
+      <data key="name">ca.ubc.jpacman.ui.UndoIPacmanInteraction</data>
+      <data key="pBugs">1</data>
+    </node>
+    <node id="ca.ubc.jpacman.model.CurrentState">
+      <data key="name">ca.ubc.jpacman.model.CurrentState</data>
+      <data key="pBugs">10</data>
+    </node>
+    <node id="ca.ubc.jpacman.factory.UndoGameFactory">
+      <data key="name">ca.ubc.jpacman.factory.UndoGameFactory</data>
+      <data key="pBugs">2</data>
+    </node>
+    <edge source="ca.ubc.jpacman.model.UndoableGame" target="ca.ubc.jpacman.model.UndoIGameInteractor"/>
+    <edge source="ca.ubc.jpacman.model.UndoableGame" target="ca.ubc.jpacman.model.UndoIGameInteractor"/>
+    <edge source="ca.ubc.jpacman.ui.UndoButtonPanel" target="ca.ubc.jpacman.ui.UndoPacmanInteraction"/>
+    <edge source="ca.ubc.jpacman.ui.UndoablePacman" target="ca.ubc.jpacman.ui.UndoPacmanInteraction"/>
+    <edge source="ca.ubc.jpacman.ui.UndoablePacman" target="ca.ubc.jpacman.ui.UndoPacmanInteraction"/>
+    <edge source="ca.ubc.jpacman.ui.UndoPacmanInteraction" target="ca.ubc.jpacman.ui.UndoIPacmanInteraction"/>
+    <edge source="ca.ubc.jpacman.model.CurrentState" target="ca.ubc.jpacman.model.UndoableGame"/>
+    <edge source="ca.ubc.jpacman.factory.UndoGameFactory" target="ca.ubc.jpacman.model.UndoableGame"/>
+  </graph>
+</graphml>
