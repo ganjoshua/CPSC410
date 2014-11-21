@@ -1,0 +1,7 @@
+(Inspection Test, Manual)
+Input: classcycleAnalyse.xml file
+Output: test.txt
+Test: This class read in classcycleAnalyse.xml file as input. For the output, 
+it read all the class name and write those information on a text file which in this 
+case is test.txt. We can manually look at the output in test.txt file to see if the 
+output are classes' name. If it is, then this class is doing its job correctly.
