@@ -1,7 +1,5 @@
 /* Code for writeToTxtFile() modified from here: 
  * http://stackoverflow.com/questions/11100381/to-edit-a-specific-line-in-a-textfile-using-java-program
- * 
- * 
  */
 package code;
 

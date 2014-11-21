@@ -1,3 +1,6 @@
+/* Code modified from the website below:
+ * http://www.mkyong.com/java/how-to-create-xml-file-in-java-dom/
+ */
 package code;
 
 import java.io.BufferedReader;

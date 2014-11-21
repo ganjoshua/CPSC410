@@ -1,42 +1,35 @@
-new
+
 Joshua
 Added sprites and fixed scoring
 sprite.java
 score.java
 
-new
 Chun
 Create sprites
 sprite.java 
 
-new
 Alex
 Improved scoring algorithm based on movement
 score.java
 move.java
 
-new
 Johnny
 Modified move function
 move.java
 
-new
 Joshua
 Bug Fix
 game.java
 
-new
 Alex
 Implemented counter function
 score.java
 
-new
 Chun
 Implemented Game and move functions
 game.java
 move.java
 
-new
 Johnny
 Set up project
 game.java

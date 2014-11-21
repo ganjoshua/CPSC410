@@ -1,3 +1,6 @@
+/* Code for the line_counter() taken from here:
+ * http://stackoverflow.com/questions/453018/number-of-lines-in-a-file-in-java
+ */
 package code;
 import info.Files;
 

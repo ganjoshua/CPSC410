@@ -1,3 +1,6 @@
+/* Code modified based on the one from here:
+ * http://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser/
+ */
 package parser;
 
 import javax.xml.parsers.DocumentBuilderFactory;
