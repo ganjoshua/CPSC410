@@ -1,0 +1,37 @@
+
+Joshua
+Added sprites and fixed scoring
+sprite.java
+score.java
+
+Chun
+Create sprites
+sprite.java 
+
+Alex
+Improved scoring algorithm based on movement
+score.java
+move.java
+
+Johnny
+Modified move function
+move.java
+
+Joshua
+Bug Fix
+game.java
+
+Alex
+Implemented counter function
+score.java
+
+Chun
+Implemented Game and move functions
+game.java
+move.java
+
+Johnny
+Set up project
+game.java
+score.java
+move.java

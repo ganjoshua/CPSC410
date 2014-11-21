@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="1" timestamp="1416090958826" analysisTimestamp="1416090950420" release="">
+  <Project projectName="bomberman">
+    <Jar>C:\githubREPO\CPSC410\bomberman\bin</Jar>
+    <AuxClasspathEntry>C:\githubREPO\CPSC410\bomberman\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_25\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\githubREPO\CPSC410\bomberman\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="1" rank="14" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="BomberBomb">
+      <SourceLine classname="BomberBomb" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Class>
+    <Method classname="BomberBomb" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="BomberBomb" start="79" end="107" startBytecode="0" endBytecode="355" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception"/>
+    </Class>
+    <SourceLine classname="BomberBomb" start="86" end="86" startBytecode="43" endBytecode="43" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    <SourceLine classname="BomberBomb" start="86" end="86" startBytecode="43" endBytecode="43" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    <SourceLine classname="BomberBomb" start="86" end="86" startBytecode="43" endBytecode="43" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" rank="17" abbrev="IS" category="MT_CORRECTNESS" first="1">
+    <Class classname="BomberBomb">
+      <SourceLine classname="BomberBomb" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Class>
+    <Field classname="BomberBomb" name="alive" signature="Z" isStatic="false">
+      <SourceLine classname="BomberBomb" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Field>
+    <Int value="66" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="BomberBomb" start="113" end="113" startBytecode="2" endBytecode="2" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="BomberBomb" start="79" end="79" startBytecode="77" endBytecode="77" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="BomberBomb" start="87" end="87" startBytecode="45" endBytecode="45" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" rank="17" abbrev="IS" category="MT_CORRECTNESS" first="1">
+    <Class classname="BomberBomb">
+      <SourceLine classname="BomberBomb" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Class>
+    <Field classname="BomberBomb" name="frame" signature="I" isStatic="false">
+      <SourceLine classname="BomberBomb" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Field>
+    <Int value="50" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="BomberBomb" start="138" end="138" startBytecode="20" endBytecode="20" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="BomberBomb" start="125" end="125" startBytecode="19" endBytecode="19" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="BomberBomb" start="84" end="84" startBytecode="24" endBytecode="24" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="BomberBomb" start="84" end="84" startBytecode="31" endBytecode="31" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="BomberBomb">
+      <SourceLine classname="BomberBomb" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Class>
+    <Method classname="BomberBomb" name="&lt;init&gt;" signature="(LBomberMap;III)V" isStatic="false">
+      <SourceLine classname="BomberBomb" start="62" end="73" startBytecode="0" endBytecode="247" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Method>
+    <Field classname="BomberBomb" name="images" signature="[Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="BomberBomb" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    </Field>
+    <SourceLine classname="BomberBomb" start="67" end="67" startBytecode="67" endBytecode="67" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+    <SourceLine classname="BomberBomb" start="67" end="67" startBytecode="67" endBytecode="67" sourcefile="BomberBomb.java" sourcepath="BomberBomb.java"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="1" rank="14" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="BomberBonus">
+      <SourceLine classname="BomberBonus" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+    </Class>
+    <Method classname="BomberBonus" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="BomberBonus" start="77" end="88" startBytecode="0" endBytecode="156" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception"/>
+    </Class>
+    <SourceLine classname="BomberBonus" start="83" end="83" startBytecode="43" endBytecode="43" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+    <SourceLine classname="BomberBonus" start="83" end="83" startBytecode="43" endBytecode="43" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+    <SourceLine classname="BomberBonus" start="83" end="83" startBytecode="43" endBytecode="43" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" rank="17" abbrev="IS" category="MT_CORRECTNESS" first="1">
+    <Class classname="BomberBonus">
+      <SourceLine classname="BomberBonus" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+    </Class>
+    <Field classname="BomberBonus" name="alive" signature="Z" isStatic="false">
+      <SourceLine classname="BomberBonus" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+    </Field>
+    <Int value="50" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="BomberBonus" start="108" end="108" startBytecode="2" endBytecode="2" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="BomberBonus" start="77" end="77" startBytecode="57" endBytecode="57" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" rank="17" abbrev="IS" category="MT_CORRECTNESS" first="1">
+    <Class classname="BomberBonus">
+      <SourceLine classname="BomberBonus" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+    </Class>
+    <Field classname="BomberBonus" name="frame" signature="I" isStatic="false">
+      <SourceLine classname="BomberBonus" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java"/>
+    </Field>
+    <Int value="60" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="BomberBonus" start="133" end="133" startBytecode="21" endBytecode="21" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="BomberBonus" start="120" end="120" startBytecode="20" endBytecode="20" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="BomberBonus" start="81" end="81" startBytecode="24" endBytecode="24" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="BomberBonus" start="81" end="81" startBytecode="31" endBytecode="31" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="BomberBonus" start="84" end="84" startBytecode="45" endBytecode="45" sourcefile="BomberBonus.java" sourcepath="BomberBonus.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="1">
+    <Class classname="BomberConfigDialog">
+      <SourceLine classname="BomberConfigDialog" sourcefile="BomberConfigDialog.java" sourcepath="BomberConfigDialog.java"/>
+    </Class>
+    <Method classname="BomberConfigDialog" name="setupPanel" signature="(ILjavax/swing/JPanel;Ljavax/swing/JPanel;[Ljavax/swing/JTextField;)V" isStatic="false">
+      <SourceLine classname="BomberConfigDialog" start="109" end="148" startBytecode="0" endBytecode="545" sourcefile="BomberConfigDialog.java" sourcepath="BomberConfigDialog.java"/>
+    </Method>
+    <SourceLine classname="BomberConfigDialog" start="119" end="124" startBytecode="74" endBytecode="189" sourcefile="BomberConfigDialog.java" sourcepath="BomberConfigDialog.java"/>
+    <SourceLine classname="BomberConfigDialog" start="119" end="124" startBytecode="74" endBytecode="189" sourcefile="BomberConfigDialog.java" sourcepath="BomberConfigDialog.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="BomberFire">
+      <SourceLine classname="BomberFire" sourcefile="BomberFire.java" sourcepath="BomberFire.java"/>
+    </Class>
+    <Method classname="BomberFire" name="&lt;init&gt;" signature="(LBomberMap;III)V" isStatic="false">
+      <SourceLine classname="BomberFire" start="51" end="75" startBytecode="0" endBytecode="343" sourcefile="BomberFire.java" sourcepath="BomberFire.java"/>
+    </Method>
+    <Field classname="BomberFire" name="images" signature="[[Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="BomberFire" sourcefile="BomberFire.java" sourcepath="BomberFire.java"/>
+    </Field>
+    <SourceLine classname="BomberFire" start="58" end="58" startBytecode="81" endBytecode="81" sourcefile="BomberFire.java" sourcepath="BomberFire.java"/>
+    <SourceLine classname="BomberFire" start="58" end="58" startBytecode="81" endBytecode="81" sourcefile="BomberFire.java" sourcepath="BomberFire.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberGame">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Class>
+    <Field classname="BomberGame" name="players" signature="[LBomberPlayer;" isStatic="true">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Field>
+    <SourceLine classname="BomberGame" start="40" end="40" startBytecode="19" endBytecode="19" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberGame">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Class>
+    <Field classname="BomberGame" name="playersLeft" signature="I" isStatic="true">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Field>
+    <SourceLine classname="BomberGame" start="38" end="38" startBytecode="15" endBytecode="15" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberGame">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Class>
+    <Field classname="BomberGame" name="totalPlayers" signature="I" isStatic="true">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Field>
+    <SourceLine classname="BomberGame" start="36" end="36" startBytecode="9" endBytecode="9" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1">
+    <Class classname="BomberGame">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Class>
+    <Method classname="BomberGame" name="&lt;init&gt;" signature="(LBomberMain;LBomberMap;I)V" isStatic="false">
+      <SourceLine classname="BomberGame" start="89" end="115" startBytecode="0" endBytecode="396" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Method>
+    <Field classname="BomberGame" name="playersLeft" signature="I" isStatic="true">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Field>
+    <SourceLine classname="BomberGame" start="92" end="92" startBytecode="46" endBytecode="46" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    <SourceLine classname="BomberGame" start="92" end="92" startBytecode="46" endBytecode="46" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="1">
+    <Class classname="BomberGame">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Class>
+    <Method classname="BomberGame" name="&lt;init&gt;" signature="(LBomberMain;LBomberMap;I)V" isStatic="false">
+      <SourceLine classname="BomberGame" start="89" end="115" startBytecode="0" endBytecode="396" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Method>
+    <Field classname="BomberGame" name="totalPlayers" signature="I" isStatic="true">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Field>
+    <SourceLine classname="BomberGame" start="92" end="92" startBytecode="49" endBytecode="49" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    <SourceLine classname="BomberGame" start="92" end="92" startBytecode="49" endBytecode="49" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="BomberGame">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Class>
+    <Method classname="BomberGame" name="&lt;init&gt;" signature="(LBomberMain;LBomberMap;I)V" isStatic="false">
+      <SourceLine classname="BomberGame" start="89" end="115" startBytecode="0" endBytecode="396" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Method>
+    <Field classname="BomberGame" name="players" signature="[LBomberPlayer;" isStatic="true">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Field>
+    <SourceLine classname="BomberGame" start="103" end="103" startBytecode="113" endBytecode="113" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    <SourceLine classname="BomberGame" start="103" end="103" startBytecode="113" endBytecode="113" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberImageButton">
+      <SourceLine classname="BomberImageButton" sourcefile="BomberImageButton.java" sourcepath="BomberImageButton.java"/>
+    </Class>
+    <Method classname="BomberImageButton" name="&lt;init&gt;" signature="(Ljavax/swing/JPanel;[Ljava/awt/Image;)V" isStatic="false">
+      <SourceLine classname="BomberImageButton" start="64" end="70" startBytecode="0" endBytecode="127" sourcefile="BomberImageButton.java" sourcepath="BomberImageButton.java"/>
+    </Method>
+    <Field classname="BomberImageButton" name="images" signature="[Ljava/awt/Image;" isStatic="false">
+      <SourceLine classname="BomberImageButton" sourcefile="BomberImageButton.java" sourcepath="BomberImageButton.java"/>
+    </Field>
+    <LocalVariable name="images" register="2" pc="16" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="BomberImageButton" start="66" end="66" startBytecode="16" endBytecode="16" sourcefile="BomberImageButton.java" sourcepath="BomberImageButton.java"/>
+    <SourceLine classname="BomberImageButton" start="66" end="66" startBytecode="16" endBytecode="16" sourcefile="BomberImageButton.java" sourcepath="BomberImageButton.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="BomberImageButton">
+      <SourceLine classname="BomberImageButton" sourcefile="BomberImageButton.java" sourcepath="BomberImageButton.java"/>
+    </Class>
+    <Field classname="BomberImageButton" name="rect" signature="Ljava/awt/Rectangle;" isStatic="false">
+      <SourceLine classname="BomberImageButton" sourcefile="BomberImageButton.java" sourcepath="BomberImageButton.java"/>
+    </Field>
+    <SourceLine classname="BomberImageButton" start="83" end="83" startBytecode="44" endBytecode="44" sourcefile="BomberImageButton.java" sourcepath="BomberImageButton.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberKeyConfig">
+      <SourceLine classname="BomberKeyConfig" sourcefile="BomberKeyConfig.java" sourcepath="BomberKeyConfig.java"/>
+    </Class>
+    <Field classname="BomberKeyConfig" name="keys" signature="[[I" isStatic="true">
+      <SourceLine classname="BomberKeyConfig" sourcefile="BomberKeyConfig.java" sourcepath="BomberKeyConfig.java"/>
+    </Field>
+    <SourceLine classname="BomberKeyConfig" start="17" end="17" startBytecode="1" endBytecode="1" sourcefile="BomberKeyConfig.java" sourcepath="BomberKeyConfig.java"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" rank="17" abbrev="REC" category="STYLE" first="1">
+    <Class classname="BomberKeyConfig">
+      <SourceLine classname="BomberKeyConfig" sourcefile="BomberKeyConfig.java" sourcepath="BomberKeyConfig.java"/>
+    </Class>
+    <Method classname="BomberKeyConfig" name="openFile" signature="()Z" isStatic="true">
+      <SourceLine classname="BomberKeyConfig" start="47" end="63" startBytecode="0" endBytecode="142" sourcefile="BomberKeyConfig.java" sourcepath="BomberKeyConfig.java"/>
+    </Method>
+    <SourceLine classname="BomberKeyConfig" start="59" end="59" startBytecode="36" endBytecode="36" sourcefile="BomberKeyConfig.java" sourcepath="BomberKeyConfig.java"/>
+    <SourceLine classname="BomberKeyConfig" start="59" end="59" startBytecode="36" endBytecode="36" sourcefile="BomberKeyConfig.java" sourcepath="BomberKeyConfig.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="BomberKeyQueue$Node">
+      <SourceLine classname="BomberKeyQueue$Node" start="147" end="171" sourcefile="BomberKeyQueue.java" sourcepath="BomberKeyQueue.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="BomberMain">
+      <SourceLine classname="BomberMain" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+    </Class>
+    <Method classname="BomberMain" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="BomberMain" start="148" end="149" startBytecode="0" endBytecode="4" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+    </Method>
+    <LocalVariable name="bomberMain1" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="BomberMain" start="148" end="148" startBytecode="7" endBytecode="7" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+    <SourceLine classname="BomberMain" start="148" end="148" startBytecode="7" endBytecode="7" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="bomberMain1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberMain">
+      <SourceLine classname="BomberMain" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+    </Class>
+    <Field classname="BomberMain" name="RP" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="BomberMain" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+    </Field>
+    <SourceLine classname="BomberMenu" start="63" end="63" startBytecode="114" endBytecode="114" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_REFACTORED_TO_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberMain">
+      <SourceLine classname="BomberMain" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+    </Class>
+    <Field classname="BomberMain" name="sndEffectPlayer" signature="LBomberSndEffect;" isStatic="true">
+      <SourceLine classname="BomberMain" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+    </Field>
+    <SourceLine classname="BomberMain" start="26" end="26" startBytecode="6" endBytecode="6" sourcefile="BomberMain.java" sourcepath="BomberMain.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="BomberMap">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+    <Method classname="BomberMap" name="createFire" signature="(IIII)V" isStatic="false">
+      <SourceLine classname="BomberMap" start="377" end="516" startBytecode="0" endBytecode="494" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Method>
+    <LocalVariable name="shiftCount" register="8" pc="106" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="BomberMap" start="394" end="394" startBytecode="106" endBytecode="106" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    <SourceLine classname="BomberMap" start="394" end="394" startBytecode="106" endBytecode="106" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="shiftCount"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+  </BugInstance>
+  <BugInstance type="MS_FINAL_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberMap">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+    <Field classname="BomberMap" name="bombImages" signature="[Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Field>
+    <SourceLine classname="BomberMap" start="64" end="64" startBytecode="5" endBytecode="5" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+  </BugInstance>
+  <BugInstance type="MS_FINAL_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberMap">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+    <Field classname="BomberMap" name="bonusImages" signature="[[Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Field>
+    <SourceLine classname="BomberMap" start="70" end="70" startBytecode="17" endBytecode="17" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+  </BugInstance>
+  <BugInstance type="MS_FINAL_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberMap">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+    <Field classname="BomberMap" name="fireBrickImages" signature="[[Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Field>
+    <SourceLine classname="BomberMap" start="68" end="68" startBytecode="13" endBytecode="13" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+  </BugInstance>
+  <BugInstance type="MS_FINAL_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberMap">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+    <Field classname="BomberMap" name="fireImages" signature="[[Ljava/awt/Image;" isStatic="true">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Field>
+    <SourceLine classname="BomberMap" start="66" end="66" startBytecode="9" endBytecode="9" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="BomberMap">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+    <Field classname="BomberMap" name="level" signature="I" isStatic="true">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Field>
+    <SourceLine classname="BomberMap" start="92" end="92" startBytecode="29" endBytecode="29" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="BomberMap">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+    <Method classname="BomberMap" name="&lt;init&gt;" signature="(LBomberMain;)V" isStatic="false">
+      <SourceLine classname="BomberMap" start="200" end="278" startBytecode="0" endBytecode="1189" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Method>
+    <Field classname="BomberMap" name="level" signature="I" isStatic="true">
+      <SourceLine classname="BomberMap" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Field>
+    <SourceLine classname="BomberMap" start="203" end="203" startBytecode="62" endBytecode="62" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    <SourceLine classname="BomberMap" start="203" end="203" startBytecode="62" endBytecode="62" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="BomberMap$Bomb">
+      <SourceLine classname="BomberMap$Bomb" start="41" end="46" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="BomberMap$Bonus">
+      <SourceLine classname="BomberMap$Bonus" start="53" end="58" sourcefile="BomberMap.java" sourcepath="BomberMap.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="BomberMenu">
+      <SourceLine classname="BomberMenu" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+    </Class>
+    <Method classname="BomberMenu" name="doCommand" signature="(I)V" isStatic="false">
+      <SourceLine classname="BomberMenu" start="161" end="189" startBytecode="0" endBytecode="274" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+    </Method>
+    <SourceLine classname="BomberMenu" start="187" end="187" startBytecode="129" endBytecode="129" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+    <SourceLine classname="BomberMenu" start="187" end="187" startBytecode="129" endBytecode="129" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="1">
+    <Class classname="BomberMenu">
+      <SourceLine classname="BomberMenu" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+    </Class>
+    <Method classname="BomberMenu" name="keyPressed" signature="(Ljava/awt/event/KeyEvent;)V" isStatic="false">
+      <SourceLine classname="BomberMenu" start="134" end="154" startBytecode="0" endBytecode="241" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+    </Method>
+    <SourceLine classname="BomberMenu" start="135" end="140" startBytecode="9" endBytecode="79" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+    <SourceLine classname="BomberMenu" start="135" end="140" startBytecode="9" endBytecode="79" sourcefile="BomberMenu.java" sourcepath="BomberMenu.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_VOID_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="BomberPlayer">
+      <SourceLine classname="BomberPlayer" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Class>
+    <Method classname="BomberPlayer" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="BomberPlayer" start="80" end="125" startBytecode="0" endBytecode="569" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Method>
+    <SourceLine classname="BomberPlayer" start="107" end="107" startBytecode="122" endBytecode="122" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    <SourceLine classname="BomberPlayer" start="107" end="107" startBytecode="122" endBytecode="122" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="1">
+    <Class classname="BomberPlayer">
+      <SourceLine classname="BomberPlayer" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Class>
+    <Method classname="BomberPlayer" name="&lt;init&gt;" signature="(LBomberGame;LBomberMap;I)V" isStatic="false">
+      <SourceLine classname="BomberPlayer" start="133" end="183" startBytecode="0" endBytecode="872" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Method>
+    <SourceLine classname="BomberPlayer" start="145" end="150" startBytecode="206" endBytecode="271" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    <SourceLine classname="BomberPlayer" start="145" end="150" startBytecode="206" endBytecode="271" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="BomberPlayer">
+      <SourceLine classname="BomberPlayer" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Class>
+    <Field classname="BomberPlayer" name="height" signature="I" isStatic="false">
+      <SourceLine classname="BomberPlayer" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Field>
+    <SourceLine classname="BomberPlayer" start="35" end="35" startBytecode="48" endBytecode="48" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="BomberPlayer">
+      <SourceLine classname="BomberPlayer" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Class>
+    <Field classname="BomberPlayer" name="width" signature="I" isStatic="false">
+      <SourceLine classname="BomberPlayer" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Field>
+    <SourceLine classname="BomberPlayer" start="33" end="33" startBytecode="42" endBytecode="42" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="BomberPlayer">
+      <SourceLine classname="BomberPlayer" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Class>
+    <Method classname="BomberPlayer" name="kill" signature="()V" isStatic="false">
+      <SourceLine classname="BomberPlayer" start="359" end="377" startBytecode="0" endBytecode="138" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    </Method>
+    <Field classname="BomberGame" name="playersLeft" signature="I" isStatic="true">
+      <SourceLine classname="BomberGame" sourcefile="BomberGame.java" sourcepath="BomberGame.java"/>
+    </Field>
+    <SourceLine classname="BomberPlayer" start="362" end="362" startBytecode="19" endBytecode="19" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+    <SourceLine classname="BomberPlayer" start="362" end="362" startBytecode="19" endBytecode="19" sourcefile="BomberPlayer.java" sourcepath="BomberPlayer.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="BomberRandInt">
+      <SourceLine classname="BomberRandInt" sourcefile="BomberRandInt.java" sourcepath="BomberRandInt.java"/>
+    </Class>
+    <Method classname="BomberRandInt" name="nextRandom" signature="()D" isStatic="true">
+      <SourceLine classname="BomberRandInt" start="64" end="72" startBytecode="0" endBytecode="105" sourcefile="BomberRandInt.java" sourcepath="BomberRandInt.java"/>
+    </Method>
+    <SourceLine classname="BomberRandInt" start="64" end="64" startBytecode="7" endBytecode="7" sourcefile="BomberRandInt.java" sourcepath="BomberRandInt.java"/>
+    <SourceLine classname="BomberRandInt" start="64" end="64" startBytecode="7" endBytecode="7" sourcefile="BomberRandInt.java" sourcepath="BomberRandInt.java"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" rank="16" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="BomberSndEffect">
+      <SourceLine classname="BomberSndEffect" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java"/>
+    </Class>
+    <Method classname="BomberSndEffect" name="playSound" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="BomberSndEffect" start="20" end="35" startBytecode="0" endBytecode="188" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception"/>
+    </Class>
+    <SourceLine classname="BomberSndEffect" start="29" end="29" startBytecode="59" endBytecode="59" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java"/>
+    <SourceLine classname="BomberSndEffect" start="29" end="29" startBytecode="59" endBytecode="59" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java"/>
+    <SourceLine classname="BomberSndEffect" start="29" end="29" startBytecode="59" endBytecode="59" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="BomberSndEffect">
+      <SourceLine classname="BomberSndEffect" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java"/>
+    </Class>
+    <Method classname="BomberSndEffect" name="playSound" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="BomberSndEffect" start="20" end="35" startBytecode="0" endBytecode="188" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java"/>
+    </Method>
+    <LocalVariable name="sound" register="2" pc="56" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="BomberSndEffect" start="31" end="31" startBytecode="61" endBytecode="61" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="BomberSndEffect" start="21" end="21" startBytecode="6" endBytecode="6" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="BomberSndEffect" start="29" end="29" startBytecode="59" endBytecode="59" sourcefile="BomberSndEffect.java" sourcepath="BomberSndEffect.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="ErrorDialog">
+      <SourceLine classname="ErrorDialog" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Class>
+    <Method classname="ErrorDialog" name="&lt;init&gt;" signature="(Ljava/lang/Exception;)V" isStatic="false">
+      <SourceLine classname="ErrorDialog" start="21" end="50" startBytecode="0" endBytecode="68" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Method>
+    <LocalVariable name="selection" register="8" pc="140" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ErrorDialog" start="46" end="46" startBytecode="138" endBytecode="138" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    <SourceLine classname="ErrorDialog" start="46" end="46" startBytecode="138" endBytecode="138" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="selection"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="ErrorDialog">
+      <SourceLine classname="ErrorDialog" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Class>
+    <Method classname="ErrorDialog" name="&lt;init&gt;" signature="(Ljava/lang/Exception;Z)V" isStatic="false">
+      <SourceLine classname="ErrorDialog" start="57" end="85" startBytecode="0" endBytecode="66" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Method>
+    <LocalVariable name="selection" register="9" pc="132" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ErrorDialog" start="80" end="80" startBytecode="130" endBytecode="130" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    <SourceLine classname="ErrorDialog" start="80" end="80" startBytecode="130" endBytecode="130" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="selection"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="ErrorDialog">
+      <SourceLine classname="ErrorDialog" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Class>
+    <Method classname="ErrorDialog" name="&lt;init&gt;" signature="(Ljava/lang/Exception;)V" isStatic="false">
+      <SourceLine classname="ErrorDialog" start="21" end="50" startBytecode="0" endBytecode="334" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Method>
+    <SourceLine classname="ErrorDialog" start="49" end="49" startBytecode="141" endBytecode="141" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    <SourceLine classname="ErrorDialog" start="49" end="49" startBytecode="141" endBytecode="141" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="1">
+    <Class classname="ErrorDialog">
+      <SourceLine classname="ErrorDialog" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Class>
+    <Method classname="ErrorDialog" name="&lt;init&gt;" signature="(Ljava/lang/Exception;Z)V" isStatic="false">
+      <SourceLine classname="ErrorDialog" start="57" end="85" startBytecode="0" endBytecode="336" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Method>
+    <SourceLine classname="ErrorDialog" start="84" end="84" startBytecode="137" endBytecode="137" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    <SourceLine classname="ErrorDialog" start="84" end="84" startBytecode="137" endBytecode="137" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="ErrorDialog">
+      <SourceLine classname="ErrorDialog" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Class>
+    <Method classname="ErrorDialog" name="&lt;init&gt;" signature="(Ljava/lang/Exception;)V" isStatic="false">
+      <SourceLine classname="ErrorDialog" start="21" end="50" startBytecode="0" endBytecode="334" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Method>
+    <SourceLine classname="ErrorDialog" start="26" end="26" startBytecode="58" endBytecode="58" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    <SourceLine classname="ErrorDialog" start="26" end="26" startBytecode="58" endBytecode="58" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="ErrorDialog">
+      <SourceLine classname="ErrorDialog" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Class>
+    <Method classname="ErrorDialog" name="&lt;init&gt;" signature="(Ljava/lang/Exception;Z)V" isStatic="false">
+      <SourceLine classname="ErrorDialog" start="57" end="85" startBytecode="0" endBytecode="336" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    </Method>
+    <SourceLine classname="ErrorDialog" start="62" end="62" startBytecode="48" endBytecode="48" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+    <SourceLine classname="ErrorDialog" start="62" end="62" startBytecode="48" endBytecode="48" sourcefile="ErrorDialog.java" sourcepath="ErrorDialog.java"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_REFACTORED_TO_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Field classname="Main" name="J2" signature="Z" isStatic="true">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Field>
+    <SourceLine classname="BomberFire" start="33" end="33" startBytecode="8" endBytecode="8" sourcefile="BomberFire.java" sourcepath="BomberFire.java"/>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="2" rank="16" abbrev="DE" category="BAD_PRACTICE" first="1">
+    <Class classname="SoundPlayer">
+      <SourceLine classname="SoundPlayer" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Class>
+    <Method classname="SoundPlayer" name="setPan" signature="()V" isStatic="false">
+      <SourceLine classname="SoundPlayer" start="515" end="545" startBytecode="0" endBytecode="269" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception"/>
+    </Class>
+    <SourceLine classname="SoundPlayer" start="529" end="529" startBytecode="46" endBytecode="46" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    <SourceLine classname="SoundPlayer" start="529" end="529" startBytecode="46" endBytecode="46" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    <SourceLine classname="SoundPlayer" start="529" end="529" startBytecode="46" endBytecode="46" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="SoundPlayer">
+      <SourceLine classname="SoundPlayer" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Class>
+    <Method classname="SoundPlayer" name="loadFile" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="SoundPlayer" start="148" end="183" startBytecode="0" endBytecode="267" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Method>
+    <LocalVariable name="file" register="2" pc="87" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.io.File" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.io.File"/>
+    </Method>
+    <SourceLine classname="SoundPlayer" start="174" end="174" startBytecode="88" endBytecode="88" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="SoundPlayer" start="174" end="174" startBytecode="88" endBytecode="88" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="SoundPlayer">
+      <SourceLine classname="SoundPlayer" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Class>
+    <Method classname="SoundPlayer" name="playSound" signature="()V" isStatic="false">
+      <SourceLine classname="SoundPlayer" start="358" end="417" startBytecode="0" endBytecode="442" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Method>
+    <Field classname="SoundPlayer" name="thread" signature="Ljava/lang/Thread;" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="SoundPlayer" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Field>
+    <SourceLine classname="SoundPlayer" start="400" end="400" startBytecode="199" endBytecode="199" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="SoundPlayer" start="400" end="400" startBytecode="199" endBytecode="199" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" rank="17" abbrev="REC" category="STYLE" first="1">
+    <Class classname="SoundPlayer">
+      <SourceLine classname="SoundPlayer" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Class>
+    <Method classname="SoundPlayer" name="loadSound" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="SoundPlayer" start="209" end="350" startBytecode="0" endBytecode="858" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    </Method>
+    <SourceLine classname="SoundPlayer" start="315" end="315" startBytecode="314" endBytecode="314" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+    <SourceLine classname="SoundPlayer" start="315" end="315" startBytecode="314" endBytecode="314" sourcefile="SoundPlayer.java" sourcepath="SoundPlayer.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 15 Nov 2014 14:33:26 -0800" total_classes="25" referenced_classes="428" total_bugs="53" total_size="2282" num_packages="1" java_version="1.8.0_25" vm_version="25.25-b02" cpu_seconds="78.58" clock_seconds="382.92" peak_mbytes="477.22" alloc_mbytes="455.50" gc_seconds="1.76" priority_2="45" priority_1="8">
+    <PackageStats package="" total_bugs="53" total_types="25" total_size="2282" priority_2="45" priority_1="8">
+      <ClassStats class="BomberBGM" sourceFile="BomberBGM.java" interface="false" size="38" bugs="0"/>
+      <ClassStats class="BomberBomb" sourceFile="BomberBomb.java" interface="false" size="81" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="BomberBonus" sourceFile="BomberBonus.java" interface="false" size="78" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="BomberConfigDialog" sourceFile="BomberConfigDialog.java" interface="false" size="96" bugs="1" priority_2="1"/>
+      <ClassStats class="BomberConfigDialog$1" sourceFile="BomberConfigDialog.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="BomberConfigDialog$GetKeyDialog" sourceFile="BomberConfigDialog.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="BomberFire" sourceFile="BomberFire.java" interface="false" size="85" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="BomberGame" sourceFile="BomberGame.java" interface="false" size="165" bugs="6" priority_2="4" priority_1="2"/>
+      <ClassStats class="BomberImageButton" sourceFile="BomberImageButton.java" interface="false" size="62" bugs="2" priority_2="2"/>
+      <ClassStats class="BomberKeyConfig" sourceFile="BomberKeyConfig.java" interface="false" size="61" bugs="2" priority_2="2"/>
+      <ClassStats class="BomberKeyQueue" sourceFile="BomberKeyQueue.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="BomberKeyQueue$Node" sourceFile="BomberKeyQueue.java" interface="false" size="17" bugs="1" priority_2="1"/>
+      <ClassStats class="BomberMain" sourceFile="BomberMain.java" interface="false" size="58" bugs="2" priority_1="2"/>
+      <ClassStats class="BomberMain$1" sourceFile="BomberMain.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="BomberMain$2" sourceFile="BomberMain.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="BomberMap" sourceFile="BomberMap.java" interface="false" size="369" bugs="7" priority_2="7"/>
+      <ClassStats class="BomberMap$Bomb" sourceFile="BomberMap.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="BomberMap$Bonus" sourceFile="BomberMap.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="BomberMenu" sourceFile="BomberMenu.java" interface="false" size="121" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="BomberPlayer" sourceFile="BomberPlayer.java" interface="false" size="453" bugs="5" priority_2="5"/>
+      <ClassStats class="BomberRandInt" sourceFile="BomberRandInt.java" interface="false" size="27" bugs="1" priority_2="1"/>
+      <ClassStats class="BomberSndEffect" sourceFile="BomberSndEffect.java" interface="false" size="17" bugs="2" priority_2="2"/>
+      <ClassStats class="ErrorDialog" sourceFile="ErrorDialog.java" interface="false" size="37" bugs="6" priority_2="6"/>
+      <ClassStats class="Main" sourceFile="Main.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="SoundPlayer" sourceFile="SoundPlayer.java" interface="false" size="317" bugs="4" priority_2="4"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1426" invocations="1740" avgMicrosecondsPerInvocation="819" maxMicrosecondsPerInvocation="131896" standardDeviationMircosecondsPerInvocation="4036"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1196" invocations="1744" avgMicrosecondsPerInvocation="685" maxMicrosecondsPerInvocation="107474" standardDeviationMircosecondsPerInvocation="3563"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="1028" invocations="159" avgMicrosecondsPerInvocation="6466" maxMicrosecondsPerInvocation="866718" standardDeviationMircosecondsPerInvocation="68467"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="633" invocations="2" avgMicrosecondsPerInvocation="316698" maxMicrosecondsPerInvocation="456313" standardDeviationMircosecondsPerInvocation="139614"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="501" invocations="428" avgMicrosecondsPerInvocation="1172" maxMicrosecondsPerInvocation="60037" standardDeviationMircosecondsPerInvocation="3356"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="363" invocations="1055" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="19223" standardDeviationMircosecondsPerInvocation="795"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="277" invocations="166" avgMicrosecondsPerInvocation="1673" maxMicrosecondsPerInvocation="70796" standardDeviationMircosecondsPerInvocation="6199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="267" invocations="146" avgMicrosecondsPerInvocation="1832" maxMicrosecondsPerInvocation="61762" standardDeviationMircosecondsPerInvocation="6509"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="202" invocations="428" avgMicrosecondsPerInvocation="473" maxMicrosecondsPerInvocation="61672" standardDeviationMircosecondsPerInvocation="3099"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="178" invocations="1682" avgMicrosecondsPerInvocation="105" maxMicrosecondsPerInvocation="12262" standardDeviationMircosecondsPerInvocation="428"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="160" invocations="126" avgMicrosecondsPerInvocation="1270" maxMicrosecondsPerInvocation="76435" standardDeviationMircosecondsPerInvocation="6902"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="157" invocations="146" avgMicrosecondsPerInvocation="1076" maxMicrosecondsPerInvocation="22269" standardDeviationMircosecondsPerInvocation="2482"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1416090958824" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

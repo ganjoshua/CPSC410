@@ -1,0 +1,79 @@
+STORY 7 -- UNDO:
+As a player,
+ I want to be able to undo a move I regret, including all ghost moves made since my previous move;
+So that I can continue the game in the state just before my last move.
+
+====================================
+
+SUB-STORY 7.1 -- Undo player Behaviour
+As a player,
+ I want to move back to the previous grid,
+So that I can start from my last move
+
+Scenario S7.1: 
+Given the game has started;
+When  the player clicks the "Undo" button;
+Then  all moves from ghosts and the player are suspended,
+ and the player moves back to the previous tile
+
+=====================================
+
+SUB-STORY 7.2 -- Undo after eating food
+As a player,
+ I want the food to reappear after I undo,
+So that I can eat it again
+
+Scenario S7.2: 
+Given the game has started;
+When the player clicks the "Undo" button after moving to a food cell and eating the food;
+Then the food reappears in the food cell.
+
+=====================================
+
+SUB-STORY 7.3 -- Undo ghost behaviour 
+As a player,
+ I want the ghosts to move back to the previous grid after I undo,
+So that I am not affected by all automatic movement done by the ghosts to kill me.
+
+Scenario S7.3: 
+Given the game has started;
+When the player clicks the "Undo" button, regardless whether the player made a move in the previous tick event,
+Then the ghosts should move back to the tile in the previous tick event.
+
+
+=====================================
+
+Sub-Story 7.4 -- Undo after Game Over
+As a player, 
+ I want to be able to move back to the previous tile that I was on even after the game is over
+So that I can play again without restarting
+
+Scenario S7.4: Undo after game over or death
+Given the game has ended because the user died by a ghost; 
+When the player clicks the "Undo" button; 
+Then the player moves back to the tile just before they died
+
+=====================================
+
+SUB-STORY 7.5 -- Adjust Points
+As a player,
+ I want the points to adjust accordingly, when a coin reappears after I undo;
+So that I can earn the points again
+
+Scenario S7.5: 
+Given the game has started;
+When  the player clicks the "Undo" button;
+Then the points are decremented if a coin reappears (see section S7.3)
+
+=====================================
+
+SUB-STORY 7.6 -- Pause while UNDO
+As a player, 
+ I want to be able to have the game enter into a paused state when I press undo, 
+So that I can move back to the tile I was previously at without getting killed by a ghost
+
+Scenario S7.6:
+Given the game has started;
+When the player clicks the "Undo" button; 
+The game enters into a paused state so that the player can go back to the previous tile that they were at safely
+

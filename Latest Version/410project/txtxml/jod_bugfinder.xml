@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="1" timestamp="1416098103037" analysisTimestamp="1416098100239" release="">
+  <Project projectName="jodconverter">
+    <Jar>C:\githubREPO\CPSC410\jodconverter\bin</Jar>
+    <AuxClasspathEntry>C:\githubREPO\CPSC410\jodconverter\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_25\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\githubREPO\CPSC410\jodconverter\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.AbstractConversionTask">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.AbstractConversionTask" sourcefile="AbstractConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/AbstractConversionTask.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.AbstractConversionTask" name="inputFile" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.AbstractConversionTask" start="38" end="38" startBytecode="0" endBytecode="0" sourcefile="AbstractConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/AbstractConversionTask.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.AbstractConversionTask">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.AbstractConversionTask" sourcefile="AbstractConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/AbstractConversionTask.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.AbstractConversionTask" name="outputFile" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.AbstractConversionTask" start="39" end="39" startBytecode="0" endBytecode="0" sourcefile="AbstractConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/AbstractConversionTask.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" sourcefile="OfficeDocumentConverter.java" sourcepath="main/java/org/artofsolving/jodconverter/OfficeDocumentConverter.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" name="defaultLoadProperties" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" start="33" end="33" startBytecode="0" endBytecode="0" sourcefile="OfficeDocumentConverter.java" sourcepath="main/java/org/artofsolving/jodconverter/OfficeDocumentConverter.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" sourcefile="OfficeDocumentConverter.java" sourcepath="main/java/org/artofsolving/jodconverter/OfficeDocumentConverter.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" name="formatRegistry" signature="LDocumentFormatRegistry;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" start="31" end="31" startBytecode="0" endBytecode="0" sourcefile="OfficeDocumentConverter.java" sourcepath="main/java/org/artofsolving/jodconverter/OfficeDocumentConverter.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" sourcefile="OfficeDocumentConverter.java" sourcepath="main/java/org/artofsolving/jodconverter/OfficeDocumentConverter.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" name="officeManager" signature="LOfficeManager;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" start="30" end="30" startBytecode="0" endBytecode="0" sourcefile="OfficeDocumentConverter.java" sourcepath="main/java/org/artofsolving/jodconverter/OfficeDocumentConverter.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.StandardConversionTask">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" sourcefile="StandardConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/StandardConversionTask.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" name="defaultLoadProperties" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" start="32" end="32" startBytecode="0" endBytecode="0" sourcefile="StandardConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/StandardConversionTask.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.StandardConversionTask">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" sourcefile="StandardConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/StandardConversionTask.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" name="inputFormat" signature="LDocumentFormat;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" start="33" end="33" startBytecode="0" endBytecode="0" sourcefile="StandardConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/StandardConversionTask.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.StandardConversionTask">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" sourcefile="StandardConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/StandardConversionTask.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" name="outputFormat" signature="LDocumentFormat;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.StandardConversionTask" start="30" end="30" startBytecode="0" endBytecode="0" sourcefile="StandardConversionTask.java" sourcepath="main/java/org/artofsolving/jodconverter/StandardConversionTask.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.cli.Convert">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.cli.Convert" name="OPTIONS" signature="LOptions;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" start="49" end="49" startBytecode="0" endBytecode="0" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.cli.Convert">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.cli.Convert" name="OPTION_OUTPUT_FORMAT" signature="LOption;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" start="44" end="44" startBytecode="0" endBytecode="0" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.cli.Convert">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.cli.Convert" name="OPTION_PORT" signature="LOption;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" start="45" end="45" startBytecode="0" endBytecode="0" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.cli.Convert">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.cli.Convert" name="OPTION_REGISTRY" signature="LOption;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" start="46" end="46" startBytecode="0" endBytecode="0" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.cli.Convert">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.cli.Convert" name="OPTION_TIMEOUT" signature="LOption;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" start="47" end="47" startBytecode="0" endBytecode="0" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.cli.Convert">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.cli.Convert" name="OPTION_USER_PROFILE" signature="LOption;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.cli.Convert" start="48" end="48" startBytecode="0" endBytecode="0" sourcefile="Convert.java" sourcepath="main/java/org/artofsolving/jodconverter/cli/Convert.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" name="extension" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" start="21" end="21" startBytecode="0" endBytecode="0" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" name="inputFamily" signature="LDocumentFamily;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" start="23" end="23" startBytecode="0" endBytecode="0" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" name="loadProperties" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" start="24" end="24" startBytecode="0" endBytecode="0" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" name="mediaType" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" start="22" end="22" startBytecode="0" endBytecode="0" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" name="name" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" start="20" end="20" startBytecode="0" endBytecode="0" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" name="storePropertiesByFamily" signature="Ljava/util/Map;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.DocumentFormat" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="DocumentFormat.java" sourcepath="main/java/org/artofsolving/jodconverter/document/DocumentFormat.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" sourcefile="SimpleDocumentFormatRegistry.java" sourcepath="main/java/org/artofsolving/jodconverter/document/SimpleDocumentFormatRegistry.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" name="documentFormats" signature="Ljava/util/List;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" start="22" end="22" startBytecode="0" endBytecode="0" sourcefile="SimpleDocumentFormatRegistry.java" sourcepath="main/java/org/artofsolving/jodconverter/document/SimpleDocumentFormatRegistry.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="connectionProtocol" signature="LOfficeConnectionProtocol;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="28" end="28" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="maxTasksPerProcess" signature="I" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="36" end="36" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="officeHome" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="27" end="27" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="pipeNames" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="30" end="30" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="portNumbers" signature="[I" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="29" end="29" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="processManager" signature="LProcessManager;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="39" end="39" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="retryTimeout" signature="J" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="37" end="37" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="runAsArgs" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="31" end="31" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="taskExecutionTimeout" signature="J" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="35" end="35" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="taskQueueTimeout" signature="J" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="34" end="34" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="templateProfileDir" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="32" end="32" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" name="workDir" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" start="33" end="33" startBytecode="0" endBytecode="0" sourcefile="DefaultOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/DefaultOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" sourcefile="ExternalOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" name="connectOnStart" signature="Z" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" start="36" end="36" startBytecode="0" endBytecode="0" sourcefile="ExternalOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" sourcefile="ExternalOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" name="connection" signature="Lmain/java/org/artofsolving/jodconverter/office/OfficeConnection;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" start="35" end="35" startBytecode="0" endBytecode="0" sourcefile="ExternalOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" sourcefile="ExternalOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" name="connectOnStart" signature="Z" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" start="20" end="20" startBytecode="0" endBytecode="0" sourcefile="ExternalOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" sourcefile="ExternalOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" name="connectionProtocol" signature="LOfficeConnectionProtocol;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" start="17" end="17" startBytecode="0" endBytecode="0" sourcefile="ExternalOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" sourcefile="ExternalOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" name="pipeName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" start="19" end="19" startBytecode="0" endBytecode="0" sourcefile="ExternalOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" sourcefile="ExternalOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManagerConfiguration.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" name="portNumber" signature="I" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" start="18" end="18" startBytecode="0" endBytecode="0" sourcefile="ExternalOfficeManagerConfiguration.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExternalOfficeManagerConfiguration.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" name="EXIT_CODE_NEW_INSTALLATION" signature="Ljava/lang/Integer;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" start="27" end="27" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" name="connection" signature="Lmain/java/org/artofsolving/jodconverter/office/OfficeConnection;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" start="32" end="32" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" name="executor" signature="Ljava/util/concurrent/ExecutorService;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" start="34" end="34" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" name="logger" signature="Ljava/util/logging/Logger;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" start="36" end="36" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" name="process" signature="Lmain/java/org/artofsolving/jodconverter/office/OfficeProcess;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" start="31" end="31" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" name="settings" signature="Lmain/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" start="29" end="29" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" name="officeHome" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" name="processManager" signature="LProcessManager;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" start="29" end="29" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" name="retryInterval" signature="J" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" start="31" end="31" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" name="retryTimeout" signature="J" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" start="30" end="30" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" name="runAsArgs" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" name="templateProfileDir" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" start="27" end="27" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" name="unoUrl" signature="Lmain/java/org/artofsolving/jodconverter/office/UnoUrl;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" start="24" end="24" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" name="workDir" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" start="28" end="28" startBytecode="0" endBytecode="0" sourcefile="ManagedOfficeProcessSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ManagedOfficeProcessSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" sourcefile="NamedThreadFactory.java" sourcepath="main/java/org/artofsolving/jodconverter/office/NamedThreadFactory.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" name="baseName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="NamedThreadFactory.java" sourcepath="main/java/org/artofsolving/jodconverter/office/NamedThreadFactory.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" sourcefile="NamedThreadFactory.java" sourcepath="main/java/org/artofsolving/jodconverter/office/NamedThreadFactory.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" name="daemon" signature="Z" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="NamedThreadFactory.java" sourcepath="main/java/org/artofsolving/jodconverter/office/NamedThreadFactory.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" sourcefile="NamedThreadFactory.java" sourcepath="main/java/org/artofsolving/jodconverter/office/NamedThreadFactory.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" name="threadIndex" signature="Ljava/util/concurrent/atomic/AtomicInteger;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" start="23" end="23" startBytecode="0" endBytecode="0" sourcefile="NamedThreadFactory.java" sourcepath="main/java/org/artofsolving/jodconverter/office/NamedThreadFactory.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="bridgeComponent" signature="LXComponent;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="40" end="40" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="bridgeIndex" signature="Ljava/util/concurrent/atomic/AtomicInteger;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="36" end="36" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="bridgeListener" signature="LXEventListener;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="48" end="48" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="componentContext" signature="LXComponentContext;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="42" end="42" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="connected" signature="Z" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="46" end="46" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="connectionEventListeners" signature="Ljava/util/List;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="44" end="44" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="logger" signature="Ljava/util/logging/Logger;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="62" end="62" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="serviceManager" signature="LXMultiComponentFactory;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="41" end="41" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" name="unoUrl" signature="Lmain/java/org/artofsolving/jodconverter/office/UnoUrl;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeConnection" start="38" end="38" startBytecode="0" endBytecode="0" sourcefile="OfficeConnection.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeConnection.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="instanceProfileDir" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="36" end="36" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="logger" signature="Ljava/util/logging/Logger;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="42" end="42" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="officeHome" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="32" end="32" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="pid" signature="J" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="40" end="40" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="process" signature="Ljava/lang/Process;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="39" end="39" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="processManager" signature="LProcessManager;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="37" end="37" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="runAsArgs" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="34" end="34" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="templateProfileDir" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="35" end="35" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" name="unoUrl" signature="Lmain/java/org/artofsolving/jodconverter/office/UnoUrl;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess" start="33" end="33" startBytecode="0" endBytecode="0" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess$ExitCodeRetryable">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess$ExitCodeRetryable" start="13" end="177" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess$ExitCodeRetryable">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess$ExitCodeRetryable" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess$ExitCodeRetryable" name="exitCode" signature="I" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess$ExitCodeRetryable" sourcefile="OfficeProcess.java" sourcepath="main/java/org/artofsolving/jodconverter/office/OfficeProcess.java"/>
+    </Field>
+    <SourceLine classname="main.java.org.artofsolving.jodconverter.office.OfficeProcess$ExitCodeRetryable" start="165" end="165" startBytecode="0" endBytecode="0" sourcefile="ExitCodeRetryable.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ExitCodeRetryable.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" name="connectionEventListener" signature="Lmain/java/org/artofsolving/jodconverter/office/OfficeConnectionEventListener;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" start="34" end="34" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" name="currentTask" signature="Ljava/util/concurrent/Future;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" start="30" end="30" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" name="logger" signature="Ljava/util/logging/Logger;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" start="32" end="32" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" name="managedOfficeProcess" signature="Lmain/java/org/artofsolving/jodconverter/office/ManagedOfficeProcess;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" name="settings" signature="Lmain/java/org/artofsolving/jodconverter/office/PooledOfficeManagerSettings;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" start="24" end="24" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" name="stopping" signature="Z" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" start="28" end="28" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" name="taskCount" signature="I" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" start="29" end="29" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" name="taskExecutor" signature="Lmain/java/org/artofsolving/jodconverter/office/SuspendableThreadPoolExecutor;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" sourcefile="PooledOfficeManagerSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManagerSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" name="maxTasksPerProcess" signature="I" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" start="21" end="21" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManagerSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManagerSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" sourcefile="PooledOfficeManagerSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManagerSettings.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" name="taskExecutionTimeout" signature="J" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" start="20" end="20" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManagerSettings.java" sourcepath="main/java/org/artofsolving/jodconverter/office/PooledOfficeManagerSettings.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" name="logger" signature="Ljava/util/logging/Logger;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" start="31" end="31" startBytecode="0" endBytecode="0" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" name="pool" signature="Ljava/util/concurrent/BlockingQueue;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" name="pooledManagers" signature="[Lmain/java/org/artofsolving/jodconverter/office/PooledOfficeManager;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" name="running" signature="Z" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" start="29" end="29" startBytecode="0" endBytecode="0" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" name="taskQueueTimeout" signature="J" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" start="27" end="27" startBytecode="0" endBytecode="0" sourcefile="ProcessPoolOfficeManager.java" sourcepath="main/java/org/artofsolving/jodconverter/office/ProcessPoolOfficeManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" sourcefile="SuspendableThreadPoolExecutor.java" sourcepath="main/java/org/artofsolving/jodconverter/office/SuspendableThreadPoolExecutor.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" name="available" signature="Z" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" start="24" end="24" startBytecode="0" endBytecode="0" sourcefile="SuspendableThreadPoolExecutor.java" sourcepath="main/java/org/artofsolving/jodconverter/office/SuspendableThreadPoolExecutor.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" sourcefile="SuspendableThreadPoolExecutor.java" sourcepath="main/java/org/artofsolving/jodconverter/office/SuspendableThreadPoolExecutor.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" name="availableCondition" signature="Ljava/util/concurrent/locks/Condition;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="SuspendableThreadPoolExecutor.java" sourcepath="main/java/org/artofsolving/jodconverter/office/SuspendableThreadPoolExecutor.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" sourcefile="SuspendableThreadPoolExecutor.java" sourcepath="main/java/org/artofsolving/jodconverter/office/SuspendableThreadPoolExecutor.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" name="suspendLock" signature="Ljava/util/concurrent/locks/ReentrantLock;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="SuspendableThreadPoolExecutor.java" sourcepath="main/java/org/artofsolving/jodconverter/office/SuspendableThreadPoolExecutor.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.UnoUrl">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.UnoUrl" sourcefile="UnoUrl.java" sourcepath="main/java/org/artofsolving/jodconverter/office/UnoUrl.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.UnoUrl" name="acceptString" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.UnoUrl" start="31" end="31" startBytecode="0" endBytecode="0" sourcefile="UnoUrl.java" sourcepath="main/java/org/artofsolving/jodconverter/office/UnoUrl.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.office.UnoUrl">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.UnoUrl" sourcefile="UnoUrl.java" sourcepath="main/java/org/artofsolving/jodconverter/office/UnoUrl.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.office.UnoUrl" name="connectString" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.office.UnoUrl" start="32" end="32" startBytecode="0" endBytecode="0" sourcefile="UnoUrl.java" sourcepath="main/java/org/artofsolving/jodconverter/office/UnoUrl.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" sourcefile="LinuxProcessManager.java" sourcepath="main/java/org/artofsolving/jodconverter/process/LinuxProcessManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" name="PS_OUTPUT_LINE" signature="Ljava/util/regex/Pattern;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" start="32" end="32" startBytecode="0" endBytecode="0" sourcefile="LinuxProcessManager.java" sourcepath="main/java/org/artofsolving/jodconverter/process/LinuxProcessManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" sourcefile="LinuxProcessManager.java" sourcepath="main/java/org/artofsolving/jodconverter/process/LinuxProcessManager.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" name="runAsArgs" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" start="34" end="34" startBytecode="0" endBytecode="0" sourcefile="LinuxProcessManager.java" sourcepath="main/java/org/artofsolving/jodconverter/process/LinuxProcessManager.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.process.ProcessQuery">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.process.ProcessQuery" sourcefile="ProcessQuery.java" sourcepath="main/java/org/artofsolving/jodconverter/process/ProcessQuery.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.process.ProcessQuery" name="argument" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.process.ProcessQuery" start="18" end="18" startBytecode="0" endBytecode="0" sourcefile="ProcessQuery.java" sourcepath="main/java/org/artofsolving/jodconverter/process/ProcessQuery.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.process.ProcessQuery">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.process.ProcessQuery" sourcefile="ProcessQuery.java" sourcepath="main/java/org/artofsolving/jodconverter/process/ProcessQuery.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.process.ProcessQuery" name="command" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.process.ProcessQuery" start="17" end="17" startBytecode="0" endBytecode="0" sourcefile="ProcessQuery.java" sourcepath="main/java/org/artofsolving/jodconverter/process/ProcessQuery.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="main.java.org.artofsolving.jodconverter.util.PlatformUtils">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.util.PlatformUtils" sourcefile="PlatformUtils.java" sourcepath="main/java/org/artofsolving/jodconverter/util/PlatformUtils.java"/>
+    </Class>
+    <Field classname="main.java.org.artofsolving.jodconverter.util.PlatformUtils" name="OS_NAME" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="main.java.org.artofsolving.jodconverter.util.PlatformUtils" start="17" end="17" startBytecode="0" endBytecode="0" sourcefile="PlatformUtils.java" sourcepath="main/java/org/artofsolving/jodconverter/util/PlatformUtils.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="test.java.org.artofsolving.jodconverter.office.MockOfficeTask">
+      <SourceLine classname="test.java.org.artofsolving.jodconverter.office.MockOfficeTask" sourcefile="MockOfficeTask.java" sourcepath="test/java/org/artofsolving/jodconverter/office/MockOfficeTask.java"/>
+    </Class>
+    <Field classname="test.java.org.artofsolving.jodconverter.office.MockOfficeTask" name="completed" signature="Z" isStatic="false">
+      <SourceLine classname="test.java.org.artofsolving.jodconverter.office.MockOfficeTask" start="30" end="30" startBytecode="0" endBytecode="0" sourcefile="MockOfficeTask.java" sourcepath="test/java/org/artofsolving/jodconverter/office/MockOfficeTask.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="test.java.org.artofsolving.jodconverter.office.MockOfficeTask">
+      <SourceLine classname="test.java.org.artofsolving.jodconverter.office.MockOfficeTask" sourcefile="MockOfficeTask.java" sourcepath="test/java/org/artofsolving/jodconverter/office/MockOfficeTask.java"/>
+    </Class>
+    <Field classname="test.java.org.artofsolving.jodconverter.office.MockOfficeTask" name="delayTime" signature="J" isStatic="false">
+      <SourceLine classname="test.java.org.artofsolving.jodconverter.office.MockOfficeTask" start="28" end="28" startBytecode="0" endBytecode="0" sourcefile="MockOfficeTask.java" sourcepath="test/java/org/artofsolving/jodconverter/office/MockOfficeTask.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="test.java.org.artofsolving.jodconverter.office.PooledOfficeManagerTest">
+      <SourceLine classname="test.java.org.artofsolving.jodconverter.office.PooledOfficeManagerTest" sourcefile="PooledOfficeManagerTest.java" sourcepath="test/java/org/artofsolving/jodconverter/office/PooledOfficeManagerTest.java"/>
+    </Class>
+    <Field classname="test.java.org.artofsolving.jodconverter.office.PooledOfficeManagerTest" name="CONNECTION_MODE" signature="LUnoUrl;" isStatic="true">
+      <SourceLine classname="test.java.org.artofsolving.jodconverter.office.PooledOfficeManagerTest" start="38" end="38" startBytecode="0" endBytecode="0" sourcefile="PooledOfficeManagerTest.java" sourcepath="test/java/org/artofsolving/jodconverter/office/PooledOfficeManagerTest.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 15 Nov 2014 15:24:34 -0800" total_classes="50" referenced_classes="123" total_bugs="104" total_size="643" num_packages="10" java_version="1.8.0_25" vm_version="25.25-b02" cpu_seconds="11.55" clock_seconds="20.11" peak_mbytes="596.19" alloc_mbytes="455.50" gc_seconds="0.14" priority_2="104">
+    <PackageStats package="main.java.org.artofsolving.jodconverter" total_bugs="8" total_types="4" total_size="53" priority_2="8">
+      <ClassStats class="main.java.org.artofsolving.jodconverter.AbstractConversionTask" sourceFile="AbstractConversionTask.java" interface="false" size="15" bugs="2" priority_2="2"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" sourceFile="OfficeDocumentConverter.java" interface="false" size="17" bugs="3" priority_2="3"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.OfficeDocumentUtils" sourceFile="OfficeDocumentUtils.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.StandardConversionTask" sourceFile="StandardConversionTask.java" interface="false" size="16" bugs="3" priority_2="3"/>
+    </PackageStats>
+    <PackageStats package="main.java.org.artofsolving.jodconverter.cli" total_bugs="6" total_types="1" total_size="17" priority_2="6">
+      <ClassStats class="main.java.org.artofsolving.jodconverter.cli.Convert" sourceFile="Convert.java" interface="false" size="17" bugs="6" priority_2="6"/>
+    </PackageStats>
+    <PackageStats package="main.java.org.artofsolving.jodconverter.document" total_bugs="7" total_types="5" total_size="67" priority_2="7">
+      <ClassStats class="main.java.org.artofsolving.jodconverter.document.DefaultDocumentFormatRegistry" sourceFile="DefaultDocumentFormatRegistry.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.document.DocumentFormat" sourceFile="DocumentFormat.java" interface="false" size="38" bugs="6" priority_2="6"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.document.DocumentFormatRegistry" sourceFile="DocumentFormatRegistry.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.document.JsonDocumentFormatRegistry" sourceFile="JsonDocumentFormatRegistry.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" sourceFile="SimpleDocumentFormatRegistry.java" interface="false" size="12" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="main.java.org.artofsolving.jodconverter.office" total_bugs="75" total_types="24" total_size="380" priority_2="75">
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sourceFile="DefaultOfficeManagerConfiguration.java" interface="false" size="58" bugs="12" priority_2="12"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" sourceFile="ExternalOfficeManager.java" interface="false" size="15" bugs="2" priority_2="2"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" sourceFile="ExternalOfficeManagerConfiguration.java" interface="false" size="17" bugs="4" priority_2="4"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" sourceFile="ManagedOfficeProcess.java" interface="false" size="31" bugs="6" priority_2="6"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sourceFile="ManagedOfficeProcessSettings.java" interface="false" size="42" bugs="8" priority_2="8"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" sourceFile="NamedThreadFactory.java" interface="false" size="9" bugs="3" priority_2="3"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sourceFile="OfficeConnection.java" interface="false" size="22" bugs="9" priority_2="9"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEvent" sourceFile="OfficeConnectionEvent.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEventListener" sourceFile="OfficeConnectionEventListener.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeContext" sourceFile="OfficeContext.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeException" sourceFile="OfficeException.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeManager" sourceFile="OfficeManager.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sourceFile="OfficeProcess.java" interface="false" size="32" bugs="9" priority_2="9"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeProcess$ExitCodeRetryable" sourceFile="OfficeProcess.java" interface="false" size="9" bugs="2" priority_2="2"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeTask" sourceFile="OfficeTask.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.OfficeUtils" sourceFile="OfficeUtils.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sourceFile="PooledOfficeManager.java" interface="false" size="20" bugs="8" priority_2="8"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" sourceFile="PooledOfficeManagerSettings.java" interface="false" size="15" bugs="2" priority_2="2"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" sourceFile="ProcessPoolOfficeManager.java" interface="false" size="20" bugs="5" priority_2="5"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.RetryTimeoutException" sourceFile="RetryTimeoutException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.Retryable" sourceFile="Retryable.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" sourceFile="SuspendableThreadPoolExecutor.java" interface="false" size="10" bugs="3" priority_2="3"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.TemporaryException" sourceFile="TemporaryException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.office.UnoUrl" sourceFile="UnoUrl.java" interface="false" size="15" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="main.java.org.artofsolving.jodconverter.process" total_bugs="4" total_types="5" total_size="47" priority_2="4">
+      <ClassStats class="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" sourceFile="LinuxProcessManager.java" interface="false" size="15" bugs="2" priority_2="2"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.process.ProcessManager" sourceFile="ProcessManager.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.process.ProcessQuery" sourceFile="ProcessQuery.java" interface="false" size="9" bugs="2" priority_2="2"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.process.PureJavaProcessManager" sourceFile="PureJavaProcessManager.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="main.java.org.artofsolving.jodconverter.process.SigarProcessManager" sourceFile="SigarProcessManager.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="main.java.org.artofsolving.jodconverter.util" total_bugs="1" total_types="1" total_size="10" priority_2="1">
+      <ClassStats class="main.java.org.artofsolving.jodconverter.util.PlatformUtils" sourceFile="PlatformUtils.java" interface="false" size="10" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="test.java.org.artofsolving.jodconverter" total_bugs="0" total_types="2" total_size="12">
+      <ClassStats class="test.java.org.artofsolving.jodconverter.OfficeDocumentConverterFunctionalTest" sourceFile="OfficeDocumentConverterFunctionalTest.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="test.java.org.artofsolving.jodconverter.ReflectionUtils" sourceFile="ReflectionUtils.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="test.java.org.artofsolving.jodconverter.document" total_bugs="0" total_types="3" total_size="17">
+      <ClassStats class="test.java.org.artofsolving.jodconverter.document.DumpJsonDefaultDocumentFormatRegistry" sourceFile="DumpJsonDefaultDocumentFormatRegistry.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="test.java.org.artofsolving.jodconverter.document.DumpJsonDefaultDocumentFormatRegistry$SortedJsonObject" sourceFile="DumpJsonDefaultDocumentFormatRegistry.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="test.java.org.artofsolving.jodconverter.document.JsonDocumentFormatRegistryTest" sourceFile="JsonDocumentFormatRegistryTest.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="test.java.org.artofsolving.jodconverter.office" total_bugs="3" total_types="4" total_size="33" priority_2="3">
+      <ClassStats class="test.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerTest" sourceFile="ExternalOfficeManagerTest.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="test.java.org.artofsolving.jodconverter.office.MockOfficeTask" sourceFile="MockOfficeTask.java" interface="false" size="10" bugs="2" priority_2="2"/>
+      <ClassStats class="test.java.org.artofsolving.jodconverter.office.OfficeUtilsTest" sourceFile="OfficeUtilsTest.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="test.java.org.artofsolving.jodconverter.office.PooledOfficeManagerTest" sourceFile="PooledOfficeManagerTest.java" interface="false" size="13" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="test.java.org.artofsolving.jodconverter.process" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="test.java.org.artofsolving.jodconverter.process.ProcessManagerTest" sourceFile="ProcessManagerTest.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="562" invocations="590" avgMicrosecondsPerInvocation="953" maxMicrosecondsPerInvocation="87526" standardDeviationMircosecondsPerInvocation="4279"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="485" invocations="2" avgMicrosecondsPerInvocation="242934" maxMicrosecondsPerInvocation="270396" standardDeviationMircosecondsPerInvocation="27465"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="272" invocations="592" avgMicrosecondsPerInvocation="459" maxMicrosecondsPerInvocation="19403" standardDeviationMircosecondsPerInvocation="1322"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="141" invocations="123" avgMicrosecondsPerInvocation="1151" maxMicrosecondsPerInvocation="15947" standardDeviationMircosecondsPerInvocation="2677"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="102" invocations="232" avgMicrosecondsPerInvocation="443" maxMicrosecondsPerInvocation="60378" standardDeviationMircosecondsPerInvocation="3954"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="91" invocations="395" avgMicrosecondsPerInvocation="231" maxMicrosecondsPerInvocation="2687" standardDeviationMircosecondsPerInvocation="403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="82" invocations="232" avgMicrosecondsPerInvocation="356" maxMicrosecondsPerInvocation="43341" standardDeviationMircosecondsPerInvocation="2841"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="48" invocations="123" avgMicrosecondsPerInvocation="397" maxMicrosecondsPerInvocation="19461" standardDeviationMircosecondsPerInvocation="2091"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="45" invocations="123" avgMicrosecondsPerInvocation="371" maxMicrosecondsPerInvocation="8926" standardDeviationMircosecondsPerInvocation="880"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="40" invocations="530" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="1436" standardDeviationMircosecondsPerInvocation="140"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="40" invocations="123" avgMicrosecondsPerInvocation="327" maxMicrosecondsPerInvocation="5648" standardDeviationMircosecondsPerInvocation="795"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="34" invocations="123" avgMicrosecondsPerInvocation="276" maxMicrosecondsPerInvocation="8103" standardDeviationMircosecondsPerInvocation="822"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="33" invocations="232" avgMicrosecondsPerInvocation="144" maxMicrosecondsPerInvocation="2911" standardDeviationMircosecondsPerInvocation="195"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="32" invocations="123" avgMicrosecondsPerInvocation="268" maxMicrosecondsPerInvocation="4556" standardDeviationMircosecondsPerInvocation="594"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="31" invocations="132" avgMicrosecondsPerInvocation="238" maxMicrosecondsPerInvocation="5400" standardDeviationMircosecondsPerInvocation="580"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteSuppressedWarnings" totalMilliseconds="29" invocations="123" avgMicrosecondsPerInvocation="243" maxMicrosecondsPerInvocation="25137" standardDeviationMircosecondsPerInvocation="2254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="28" invocations="232" avgMicrosecondsPerInvocation="122" maxMicrosecondsPerInvocation="898" standardDeviationMircosecondsPerInvocation="110"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1416098103034" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='reportXMLtoHTML.xsl'?>
+<classycle title='Classycle Plugin' date='2014-11-15'>
+  <cycles>
+    <cycle name="main.java.org.artofsolving.jodconverter.office.OfficeConnection et al." size="3" longestWalk="1" girth="3" radius="2" diameter="2" bestFragmentSize="1">
+      <classes>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection" eccentricity="2" maximumFragmentSize="1"/>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEventListener" eccentricity="2" maximumFragmentSize="1"/>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEvent" eccentricity="2" maximumFragmentSize="1"/>
+      </classes>
+      <centerClasses>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection"/>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEventListener"/>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEvent"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection"/>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEventListener"/>
+        <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEvent"/>
+      </bestFragmenters>
+    </cycle>
+  </cycles>
+  <classes numberOfExternalClasses="57">
+    <class name="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="3032" usedBy="0" usesInternal="2" usesExternal="7" layer="2" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.ProcessManager" type="usesInternal"/>
+      <classRef name="java.util.regex.Pattern" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.ProcessQuery" type="usesInternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.lang.Process" type="usesExternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.OfficeDocumentConverter" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="5142" usedBy="0" usesInternal="0" usesExternal="9" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="OfficeManager" type="usesExternal"/>
+      <classRef name="DocumentFormatRegistry" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="OfficeException" type="usesExternal"/>
+      <classRef name="DocumentFormat" type="usesExternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.ReflectionUtils" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="1382" usedBy="0" usesInternal="0" usesExternal="8" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.SecurityException" type="usesExternal"/>
+      <classRef name="java.lang.NoSuchFieldException" type="usesExternal"/>
+      <classRef name="java.lang.IllegalArgumentException" type="usesExternal"/>
+      <classRef name="java.lang.IllegalAccessException" type="usesExternal"/>
+      <classRef name="java.lang.Class" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.AbstractConversionTask" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="abstract class" innerClass="false" size="6969" usedBy="1" usesInternal="0" usesExternal="9" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.StandardConversionTask" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="XComponent" type="usesExternal"/>
+      <classRef name="OfficeContext" type="usesExternal"/>
+      <classRef name="OfficeException" type="usesExternal"/>
+      <classRef name="OfficeTask" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeUtils" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="5895" usedBy="0" usesInternal="0" usesExternal="7" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.Class" type="usesExternal"/>
+      <classRef name="PropertyValue" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="3223" usedBy="1" usesInternal="4" usesExternal="6" layer="3" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeProcess" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection" type="usesInternal"/>
+      <classRef name="java.util.concurrent.ExecutorService" type="usesExternal"/>
+      <classRef name="java.util.logging.Logger" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeException" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="3101" usedBy="2" usesInternal="1" usesExternal="5" layer="1" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.UnoUrl" type="usesInternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="ProcessManager" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.NamedThreadFactory" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="1024" usedBy="0" usesInternal="0" usesExternal="7" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.util.concurrent.ThreadFactory" type="usesExternal"/>
+      <classRef name="java.util.concurrent.atomic.AtomicInteger" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.Runnable" type="usesExternal"/>
+      <classRef name="java.lang.Thread" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.OfficeDocumentUtils" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="2077" usedBy="0" usesInternal="0" usesExternal="6" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="XComponent" type="usesExternal"/>
+      <classRef name="DocumentFamily" type="usesExternal"/>
+      <classRef name="OfficeException" type="usesExternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.office.MockOfficeTask" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="2418" usedBy="0" usesInternal="0" usesExternal="6" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="OfficeContext" type="usesExternal"/>
+      <classRef name="OfficeException" type="usesExternal"/>
+      <classRef name="OfficeTask" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="1373" usedBy="1" usesInternal="2" usesExternal="2" layer="2" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.UnoUrl" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.process.SigarProcessManager" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="2130" usedBy="0" usesInternal="2" usesExternal="5" layer="2" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.ProcessManager" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.ProcessQuery" type="usesInternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.lang.Process" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.document.DefaultDocumentFormatRegistry" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="3395" usedBy="0" usesInternal="1" usesExternal="2" layer="3" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="1453" usedBy="0" usesInternal="5" usesExternal="3" layer="3" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeManager" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.UnoUrl" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeException" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeTask" type="usesInternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.document.DumpJsonDefaultDocumentFormatRegistry" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="9235" usedBy="0" usesInternal="0" usesExternal="8" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="DocumentFormat" type="usesExternal"/>
+      <classRef name="JSONObject" type="usesExternal"/>
+      <classRef name="JSONException" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.document.JsonDocumentFormatRegistry" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="3970" usedBy="0" usesInternal="1" usesExternal="7" layer="3" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" type="usesInternal"/>
+      <classRef name="java.io.InputStream" type="usesExternal"/>
+      <classRef name="JSONException" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="JSONObject" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEvent" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="751" usedBy="1" usesInternal="1" usesExternal="3" layer="1" cycle="main.java.org.artofsolving.jodconverter.office.OfficeConnection et al.">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEventListener" type="usedBy"/>
+      <classRef name="java.util.EventObject" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="7085" usedBy="0" usesInternal="1" usesExternal="9" layer="3" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="OfficeConnectionProtocol" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="ProcessManager" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.NullPointerException" type="usesExternal"/>
+      <classRef name="java.lang.IllegalArgumentException" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeManager" type="usesInternal"/>
+      <classRef name="java.lang.IllegalStateException" type="usesExternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerTest" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="2162" usedBy="0" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.process.PureJavaProcessManager" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="976" usedBy="0" usesInternal="2" usesExternal="4" layer="2" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.ProcessManager" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.ProcessQuery" type="usesInternal"/>
+      <classRef name="java.lang.Process" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.process.ProcessQuery" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="909" usedBy="4" usesInternal="0" usesExternal="3" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.ProcessManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.PureJavaProcessManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.SigarProcessManager" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.process.ProcessManagerTest" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="3528" usedBy="0" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="2405" usedBy="0" usesInternal="5" usesExternal="8" layer="5" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeManager" type="usesInternal"/>
+      <classRef name="java.util.concurrent.BlockingQueue" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usesInternal"/>
+      <classRef name="java.util.logging.Logger" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.UnoUrl" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="ProcessManager" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeException" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeTask" type="usesInternal"/>
+      <classRef name="java.lang.IllegalStateException" type="usesExternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.office.PooledOfficeManagerTest" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="9570" usedBy="0" usesInternal="0" usesExternal="5" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="UnoUrl" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="1402" usedBy="1" usesInternal="0" usesExternal="8" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usedBy"/>
+      <classRef name="java.util.concurrent.ThreadPoolExecutor" type="usesExternal"/>
+      <classRef name="java.util.concurrent.locks.ReentrantLock" type="usesExternal"/>
+      <classRef name="java.util.concurrent.locks.Condition" type="usesExternal"/>
+      <classRef name="java.util.concurrent.ThreadFactory" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Thread" type="usesExternal"/>
+      <classRef name="java.lang.Runnable" type="usesExternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.office.OfficeUtilsTest" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="1238" usedBy="0" usesInternal="0" usesExternal="3" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="2549" usedBy="1" usesInternal="8" usesExternal="5" layer="4" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeManager" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.SuspendableThreadPoolExecutor" type="usesInternal"/>
+      <classRef name="java.util.concurrent.Future" type="usesExternal"/>
+      <classRef name="java.util.logging.Logger" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEventListener" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.UnoUrl" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeTask" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeException" type="usesInternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.OfficeDocumentConverterFunctionalTest" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="3341" usedBy="0" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeContext" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="interface" innerClass="false" size="584" usedBy="2" usesInternal="0" usesExternal="3" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeTask" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.UnoUrl" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="1451" usedBy="7" usesInternal="0" usesExternal="3" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcessSettings" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeProcess" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManagerSettings" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="2435" usedBy="0" usesInternal="1" usesExternal="4" layer="3" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="OfficeConnectionProtocol" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeManager" type="usesInternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="3071" usedBy="2" usesInternal="2" usesExternal="6" layer="2" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.document.DefaultDocumentFormatRegistry" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.document.JsonDocumentFormatRegistry" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.document.DocumentFormatRegistry" type="usesInternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.document.DocumentFormat" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="DocumentFamily" type="usesExternal"/>
+      <classRef name="java.util.Set" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.document.DocumentFormatRegistry" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="interface" innerClass="false" size="938" usedBy="1" usesInternal="1" usesExternal="5" layer="1" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.document.DocumentFormat" type="usesInternal"/>
+      <classRef name="DocumentFamily" type="usesExternal"/>
+      <classRef name="java.util.Set" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeException" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="778" usedBy="7" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeProcess" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeTask" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" type="usedBy"/>
+      <classRef name="java.lang.RuntimeException" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.Throwable" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.util.PlatformUtils" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="867" usedBy="0" usesInternal="0" usesExternal="3" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.Retryable" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="abstract class" innerClass="false" size="1097" usedBy="1" usesInternal="2" usesExternal="4" layer="1" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeProcess" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.TemporaryException" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.RetryTimeoutException" type="usesInternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeTask" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="interface" innerClass="false" size="693" usedBy="4" usesInternal="2" usesExternal="3" layer="1" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeContext" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeException" type="usesInternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEventListener" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="interface" innerClass="false" size="704" usedBy="2" usesInternal="1" usesExternal="4" layer="1" cycle="main.java.org.artofsolving.jodconverter.office.OfficeConnection et al.">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnection" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.util.EventListener" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEvent" type="usesInternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.document.DocumentFormat" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="5682" usedBy="2" usesInternal="0" usesExternal="5" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.document.DocumentFormatRegistry" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.document.SimpleDocumentFormatRegistry" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="DocumentFamily" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.TemporaryException" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="696" usedBy="2" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeProcess" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.Retryable" type="usedBy"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.lang.Throwable" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="test.java.org.artofsolving.jodconverter.document.JsonDocumentFormatRegistryTest" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="1980" usedBy="0" usesInternal="0" usesExternal="5" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="JSONException" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.cli.Convert" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="5732" usedBy="0" usesInternal="0" usesExternal="8" layer="0" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Option" type="usesExternal"/>
+      <classRef name="Options" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="ParseException" type="usesExternal"/>
+      <classRef name="JSONException" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeConnection" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="6570" usedBy="3" usesInternal="3" usesExternal="11" layer="1" cycle="main.java.org.artofsolving.jodconverter.office.OfficeConnection et al.">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEvent" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeContext" type="usesInternal"/>
+      <classRef name="java.util.concurrent.atomic.AtomicInteger" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.UnoUrl" type="usesInternal"/>
+      <classRef name="XComponent" type="usesExternal"/>
+      <classRef name="XMultiComponentFactory" type="usesExternal"/>
+      <classRef name="XComponentContext" type="usesExternal"/>
+      <classRef name="java.util.List" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeConnectionEventListener" type="usesInternal"/>
+      <classRef name="XEventListener" type="usesExternal"/>
+      <classRef name="java.util.logging.Logger" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.net.ConnectException" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeManager" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="interface" innerClass="false" size="773" usedBy="5" usesInternal="2" usesExternal="3" layer="2" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.DefaultOfficeManagerConfiguration" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ExternalOfficeManagerConfiguration" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.PooledOfficeManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ProcessPoolOfficeManager" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeTask" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeException" type="usesInternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.process.ProcessManager" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="interface" innerClass="false" size="812" usedBy="3" usesInternal="1" usesExternal="5" layer="1" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.process.LinuxProcessManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.PureJavaProcessManager" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.SigarProcessManager" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.lang.Process" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.process.ProcessQuery" type="usesInternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.StandardConversionTask" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="5208" usedBy="0" usesInternal="1" usesExternal="7" layer="1" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.AbstractConversionTask" type="usesInternal"/>
+      <classRef name="DocumentFormat" type="usesExternal"/>
+      <classRef name="java.util.Map" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="XComponent" type="usesExternal"/>
+      <classRef name="OfficeException" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.RetryTimeoutException" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="705" usedBy="2" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeProcess" type="usedBy"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.Retryable" type="usedBy"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+      <classRef name="java.lang.Throwable" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="main.java.org.artofsolving.jodconverter.office.OfficeProcess" sources="C:/githubREPO/CPSC410/jodconverter/bin" type="class" innerClass="false" size="10275" usedBy="1" usesInternal="5" usesExternal="11" layer="2" cycle="">
+      <classRef name="main.java.org.artofsolving.jodconverter.office.ManagedOfficeProcess" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.io.File" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.UnoUrl" type="usesInternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="ProcessManager" type="usesExternal"/>
+      <classRef name="java.lang.Process" type="usesExternal"/>
+      <classRef name="java.util.logging.Logger" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.io.IOException" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.OfficeException" type="usesInternal"/>
+      <classRef name="java.lang.ProcessBuilder" type="usesExternal"/>
+      <classRef name="java.lang.Integer" type="usesExternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.RetryTimeoutException" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.Retryable" type="usesInternal"/>
+      <classRef name="main.java.org.artofsolving.jodconverter.office.TemporaryException" type="usesInternal"/>
+      <classRef name="java.lang.Exception" type="usesExternal"/>
+    </class>
+  </classes>
+  <packageCycles>
+  </packageCycles>
+  <packages>
+    <package name="main.java.org.artofsolving.jodconverter.office" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="23" usedBy="1" usesInternal="1" usesExternal="9" layer="0" cycle="">
+      <packageRef name="main.java.org.artofsolving.jodconverter.office" type="usedBy"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+      <packageRef name="main.java.org.artofsolving.jodconverter.office" type="usesInternal"/>
+      <packageRef name="java.util.concurrent" type="usesExternal"/>
+      <packageRef name="java.util.logging" type="usesExternal"/>
+      <packageRef name="java.util.concurrent.atomic" type="usesExternal"/>
+      <packageRef name="java.util.concurrent.locks" type="usesExternal"/>
+      <packageRef name="java.net" type="usesExternal"/>
+    </package>
+    <package name="main.java.org.artofsolving.jodconverter" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="4" usedBy="1" usesInternal="1" usesExternal="4" layer="0" cycle="">
+      <packageRef name="main.java.org.artofsolving.jodconverter" type="usedBy"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+      <packageRef name="main.java.org.artofsolving.jodconverter" type="usesInternal"/>
+    </package>
+    <package name="test.java.org.artofsolving.jodconverter.document" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="2" usedBy="0" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+    </package>
+    <package name="main.java.org.artofsolving.jodconverter.cli" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="1" usedBy="0" usesInternal="0" usesExternal="3" layer="0" cycle="">
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+    </package>
+    <package name="main.java.org.artofsolving.jodconverter.process" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="5" usedBy="1" usesInternal="1" usesExternal="4" layer="0" cycle="">
+      <packageRef name="main.java.org.artofsolving.jodconverter.process" type="usedBy"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="main.java.org.artofsolving.jodconverter.process" type="usesInternal"/>
+      <packageRef name="java.util.regex" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+    </package>
+    <package name="main.java.org.artofsolving.jodconverter.document" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="5" usedBy="1" usesInternal="1" usesExternal="4" layer="0" cycle="">
+      <packageRef name="main.java.org.artofsolving.jodconverter.document" type="usedBy"/>
+      <packageRef name="main.java.org.artofsolving.jodconverter.document" type="usesInternal"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+    </package>
+    <package name="main.java.org.artofsolving.jodconverter.util" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="1" usedBy="0" usesInternal="0" usesExternal="1" layer="0" cycle="">
+      <packageRef name="java.lang" type="usesExternal"/>
+    </package>
+    <package name="test.java.org.artofsolving.jodconverter" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="2" usedBy="0" usesInternal="0" usesExternal="2" layer="0" cycle="">
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="java.io" type="usesExternal"/>
+    </package>
+    <package name="test.java.org.artofsolving.jodconverter.office" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="4" usedBy="0" usesInternal="0" usesExternal="2" layer="0" cycle="">
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+    </package>
+    <package name="test.java.org.artofsolving.jodconverter.process" sources="C:/githubREPO/CPSC410/jodconverter/bin"  size="1" usedBy="0" usesInternal="0" usesExternal="1" layer="0" cycle="">
+      <packageRef name="java.lang" type="usesExternal"/>
+    </package>
+  </packages>
+</classycle>

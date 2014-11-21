@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='reportXMLtoHTML.xsl'?>
+<classycle title='Classycle Plugin' date='2014-10-25'>
+  <cycles>
+    <cycle name="ca.ubc.jpacman.model.UndoableGame et al." size="2" longestWalk="1" girth="2" radius="1" diameter="1" bestFragmentSize="1">
+      <classes>
+        <classRef name="ca.ubc.jpacman.model.UndoableGame" eccentricity="1" maximumFragmentSize="1"/>
+        <classRef name="ca.ubc.jpacman.model.CurrentState" eccentricity="1" maximumFragmentSize="1"/>
+      </classes>
+      <centerClasses>
+        <classRef name="ca.ubc.jpacman.model.UndoableGame"/>
+        <classRef name="ca.ubc.jpacman.model.CurrentState"/>
+      </centerClasses>
+      <bestFragmenters>
+        <classRef name="ca.ubc.jpacman.model.UndoableGame"/>
+        <classRef name="ca.ubc.jpacman.model.CurrentState"/>
+      </bestFragmenters>
+    </cycle>
+  </cycles>
+  <classes numberOfExternalClasses="16">
+    <class name="ca.ubc.jpacman.model.UndoableGame" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes" type="class" innerClass="false" size="2006" usedBy="3" usesInternal="2" usesExternal="7" layer="1" cycle="ca.ubc.jpacman.model.UndoableGame et al.">
+      <classRef name="ca.ubc.jpacman.factory.UndoGameFactory" type="usedBy"/>
+      <classRef name="ca.ubc.jpacman.model.CurrentState" type="usedBy"/>
+      <classRef name="ca.ubc.jpacman.ui.UndoablePacman" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="ca.ubc.jpacman.model.UndoIGameInteractor" type="usesInternal"/>
+      <classRef name="java.util.Stack" type="usesExternal"/>
+      <classRef name="ca.ubc.jpacman.model.CurrentState" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="Direction" type="usesExternal"/>
+      <classRef name="Ghost" type="usesExternal"/>
+      <classRef name="Game" type="usesExternal"/>
+    </class>
+    <class name="ca.ubc.jpacman.ui.UndoButtonPanel" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes" type="class" innerClass="false" size="2594" usedBy="0" usesInternal="1" usesExternal="5" layer="2" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="javax.swing.JButton" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="ca.ubc.jpacman.ui.UndoPacmanInteraction" type="usesInternal"/>
+      <classRef name="ButtonPanel" type="usesExternal"/>
+    </class>
+    <class name="ca.ubc.jpacman.ui.UndoablePacman" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes" type="class" innerClass="false" size="3895" usedBy="0" usesInternal="2" usesExternal="6" layer="2" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="PacmanInteraction" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="FactoryException" type="usesExternal"/>
+      <classRef name="MainUI" type="usesExternal"/>
+      <classRef name="ca.ubc.jpacman.ui.UndoPacmanInteraction" type="usesInternal"/>
+      <classRef name="ca.ubc.jpacman.model.UndoableGame" type="usesInternal"/>
+    </class>
+    <class name="ca.ubc.jpacman.model.UndoIGameInteractor" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes" type="interface" innerClass="false" size="553" usedBy="1" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="ca.ubc.jpacman.model.UndoableGame" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="IGameInteractor" type="usesExternal"/>
+    </class>
+    <class name="ca.ubc.jpacman.ui.UndoPacmanInteraction" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes" type="class" innerClass="false" size="1028" usedBy="2" usesInternal="1" usesExternal="4" layer="1" cycle="">
+      <classRef name="ca.ubc.jpacman.ui.UndoButtonPanel" type="usedBy"/>
+      <classRef name="ca.ubc.jpacman.ui.UndoablePacman" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="ca.ubc.jpacman.ui.UndoIPacmanInteraction" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="PacmanInteraction" type="usesExternal"/>
+    </class>
+    <class name="ca.ubc.jpacman.ui.UndoIPacmanInteraction" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes" type="interface" innerClass="false" size="562" usedBy="1" usesInternal="0" usesExternal="4" layer="0" cycle="">
+      <classRef name="ca.ubc.jpacman.ui.UndoPacmanInteraction" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="IPacmanInteraction" type="usesExternal"/>
+    </class>
+    <class name="ca.ubc.jpacman.model.CurrentState" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes" type="class" innerClass="false" size="3373" usedBy="1" usesInternal="1" usesExternal="6" layer="1" cycle="ca.ubc.jpacman.model.UndoableGame et al.">
+      <classRef name="ca.ubc.jpacman.model.UndoableGame" type="usedBy"/>
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="Tile" type="usesExternal"/>
+      <classRef name="Direction" type="usesExternal"/>
+      <classRef name="Ghost" type="usesExternal"/>
+      <classRef name="ca.ubc.jpacman.model.UndoableGame" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+    </class>
+    <class name="ca.ubc.jpacman.factory.UndoGameFactory" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes" type="class" innerClass="false" size="1284" usedBy="0" usesInternal="1" usesExternal="4" layer="2" cycle="">
+      <classRef name="java.lang.Object" type="usesExternal"/>
+      <classRef name="ca.ubc.jpacman.model.UndoableGame" type="usesInternal"/>
+      <classRef name="java.lang.Error" type="usesExternal"/>
+      <classRef name="java.lang.String" type="usesExternal"/>
+      <classRef name="DefaultGameFactory" type="usesExternal"/>
+    </class>
+  </classes>
+  <packageCycles>
+  </packageCycles>
+  <packages>
+    <package name="ca.ubc.jpacman.factory" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes"  size="1" usedBy="0" usesInternal="1" usesExternal="2" layer="1" cycle="">
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="ca.ubc.jpacman.model" type="usesInternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+    </package>
+    <package name="ca.ubc.jpacman.model" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes"  size="3" usedBy="3" usesInternal="1" usesExternal="3" layer="0" cycle="">
+      <packageRef name="ca.ubc.jpacman.model" type="usedBy"/>
+      <packageRef name="ca.ubc.jpacman.ui" type="usedBy"/>
+      <packageRef name="ca.ubc.jpacman.factory" type="usedBy"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="ca.ubc.jpacman.model" type="usesInternal"/>
+      <packageRef name="java.util" type="usesExternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+    </package>
+    <package name="ca.ubc.jpacman.ui" sources="C:/githubREPO/CPSC410/jpacman-undo/target/classes"  size="4" usedBy="1" usesInternal="2" usesExternal="3" layer="1" cycle="">
+      <packageRef name="ca.ubc.jpacman.ui" type="usedBy"/>
+      <packageRef name="java.lang" type="usesExternal"/>
+      <packageRef name="javax.swing" type="usesExternal"/>
+      <packageRef name="ca.ubc.jpacman.ui" type="usesInternal"/>
+      <packageRef name="(default package)" type="usesExternal"/>
+      <packageRef name="ca.ubc.jpacman.model" type="usesInternal"/>
+    </package>
+  </packages>
+</classycle>

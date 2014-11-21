@@ -47,7 +47,7 @@ public class ReadXMLFile {
 						Element eElement1 = (Element) mNode;
 						//write class name into logfile
 						System.out.println(temp1 + " Class Name : " + eElement1.getAttribute("name"));
-						writer.write(eElement1.getAttribute("name") + ": ");
+						writer.write(eElement1.getAttribute("name") + ", ");
 						
 						NodeList oList = eElement1.getElementsByTagName("classRef");
 						for(int temp2 = 0; temp2 < oList.getLength(); temp2++){
@@ -59,7 +59,7 @@ public class ReadXMLFile {
 								if(eElement2.getAttribute("type").equals("usesInternal")){
 									//write name of class used by the class
 									System.out.println("Link to : " + eElement2.getAttribute("name"));
-									writer.write(eElement2.getAttribute("name") + " ");
+									writer.write(eElement2.getAttribute("name") + ", ");
 									
 								}
 							}
